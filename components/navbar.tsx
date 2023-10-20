@@ -1,10 +1,13 @@
+import Image from "next/image";
+
 function MyNavBar() {
   return (
     <div className="grid grid-cols-12  shadow-md items-center bg-bajer-primary text-bajer-base ">
-      <div className="flex p-1 pl-3 col-span-2 items-center">
-        <img
-          src="assets\letter-v.png"
-          className="border border-gray-300 rounded-full h-10 p-1 inline"
+      <div className="flex pl-3 col-span-2 items-center">
+        <Image
+          src={require("../assets/bajerBixen_logo.png")}
+          className="py-1 inline bg-baj"
+          width={50}
           alt="icon"
         />
         <h2 className="text-xl ml-2 inline">BajerBixen</h2>

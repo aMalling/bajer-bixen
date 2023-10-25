@@ -13,16 +13,16 @@ function JuleKalenderen() {
     <main>
       <div className="relative my-10 flex justify-center ">
         <Image
-          className="hidden md:flex m-2 border-4 border-black "
+          className="m-2 border-4 border-black "
           src={require("@/assets/beer_231223.png")}
           width={850}
           alt="Logo"
         />
         {toggle && (
-          <div className="absolute flex md:h-1/3 md:w-1/2 bg-white z-10 mt-2 right-0 shadow-xl">
+          <div className="absolute flex h-1/3 w-1/2 bg-white z-10 mt-2 right-0 shadow-xl">
             <Image
-              className=""
-              src={require("@/assets/beer_2.jpg")}
+              className="h-full"
+              src={require("@/assets/beer_4.jpg")}
               width={300}
               alt="Logo"
             />
@@ -39,15 +39,15 @@ function JuleKalenderen() {
             </div>
           </div>
         )}
-        <div className="md:absolute flex flex-col justify-center md:grid gap-10 md:grid-cols-4 md:grid-rows-6 md:w-[840px] h-full p-10 ">
+        <div className="absolute grid gap-10 grid-cols-4 grid-rows-6 w-[840px] h-full p-10 ">
           <div
             onClick={handleClick}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-center m-2 border-4 overflow-hidden border-black bg-white cursor-pointer hover:opacity-100 opacity-20 border-dashed text-lg font-semibold"
+            className="flex justify-center items-center m-2 border-4 overflow-hidden border-black bg-white cursor-pointer hover:opacity-100 opacity-20 border-dashed text-lg font-semibold"
           >
             {!toggle && <div>17</div>}
             {toggle && (
               <Image
-                className=" transition"
+                className="transition"
                 src={require("@/assets/beer_4.jpg")}
                 width={200}
                 alt="Logo"

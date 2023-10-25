@@ -1,4 +1,5 @@
 import Image from "next/image";
+import JuleKalenderen from "@/components/jul";
 
 export default function Home() {
   return (
@@ -92,6 +93,10 @@ export default function Home() {
           alt="beessssssssr"
         />
       </div>
+      <div className="w-full">
+        <JuleKalenderen />
+      </div>
+
       <h2 className="text-xl mt-32 mb-2 ">kvartalsøl!</h2>
       <div className="flex flex-row mt-2 ">
         <Image

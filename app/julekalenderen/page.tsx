@@ -19,7 +19,13 @@ function JuleKalenderen() {
           alt="Logo"
         />
         {toggle && (
-          <div className="absolute flex md:h-1/3 md:w-1/2 bg-white z-10 mt-2 right-0 shadow-xl">
+          <div className="absolute flex flex-col md:flex-row md:h-1/3 md:w-1/2 bg-white z-10 mt-2 right-0 shadow-xl">
+            <button
+              className="text-right bg mx-3 cursor-pointer"
+              onClick={handleClick}
+            >
+              x
+            </button>
             <Image
               className=""
               src={require("@/assets/beer_2.jpg")}

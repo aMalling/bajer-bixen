@@ -13,6 +13,9 @@ const config: Config = {
         "bajer-secondary": "#DDA15E",
         "bajer-base": "#FEFAE0",
       },
+      backgroundImage: {
+        heroImage: "url('/assets/beer_4.jpg')",
+      },
     },
   },
   plugins: [],

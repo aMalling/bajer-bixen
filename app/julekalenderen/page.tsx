@@ -13,7 +13,7 @@ function JuleKalenderen() {
     <main>
       <div className="relative my-10 flex justify-center ">
         <Image
-          className="hidden md:flex m-2 border-4 border-black "
+          className="hidden md:flex  border-4 border-black "
           src={require("@/assets/beer_231223.png")}
           width={850}
           alt="Logo"
@@ -45,7 +45,7 @@ function JuleKalenderen() {
             </div>
           </div>
         )}
-        <div className="md:absolute flex flex-col justify-center md:grid gap-10 md:grid-cols-4 md:grid-rows-6 md:w-[840px] h-full p-10 ">
+        <div className="md:absolute md:opacity-30 border-4 md:border-0 bg-heroImage border-black bg-gradient-to-r from-bajer-primary  from-10% via-bajer-secondary via-30%  to-bajer-primary to-90% flex flex-col justify-center md:grid gap-10 md:grid-cols-4 md:grid-rows-6 md:w-[840px] h-full p-10 ">
           <div
             onClick={handleClick}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-center m-2 border-4 overflow-hidden border-black bg-white cursor-pointer hover:opacity-100 opacity-20 border-dashed text-lg font-semibold"

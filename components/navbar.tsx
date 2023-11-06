@@ -3,9 +3,9 @@ import Link from "next/link";
 
 function MyNavBar() {
   return (
-    <div className="grid grid-cols-12 shadow-md items-center bg-bajer-primary text-bajer-base ">
+    <div className="grid grid-cols-2 shadow-md items-center bg-bajer-primary text-bajer-base">
       <Link href="#velkommen">
-        <div className="flex pl-3 col-span-2 items-center">
+        <div className="flex pl-3 col-span-1 items-center justify-start">
           <Image
             src={require("../assets/bajerBixen_logo.png")}
             className="py-1 inline bg-baj"
@@ -15,7 +15,7 @@ function MyNavBar() {
           <h2 className="text-xl ml-2 inline">BajerBixen</h2>
         </div>
       </Link>
-      <div className="flex-none col-start-10 col-span-3 ">
+      <div className="flex flex-none justify-end col-start-2 col-span-1">
         <Link
           href="#julekalenderen"
           className="p-1 ml-3 font-medium border-bajer-base px-2  hover:bg-bajer-secondary rounded-full"

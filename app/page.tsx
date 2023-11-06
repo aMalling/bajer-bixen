@@ -1,5 +1,5 @@
 import Image from "next/image";
-import JuleKalenderen from "@/components/jul";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -79,25 +79,27 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="julekalenderen">
-        <h2 className="text-xl mt-32 mb-2 ">JuleKalenderen!</h2>
-        <div className="flex flex-row   ">
-          <div className=" p-5 w-[500px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor
-            sed viverra ipsum nunc aliquet bibendum enim. Tincidunt tortor
-            aliquam nulla facilisi cras fermentum. Dis parturient montes
-            nascetur ridiculus.
+      <Link href={"/julekalenderen"}>
+        <section id="julekalenderen">
+          <h2 className="text-xl mt-32 mb-2 ">JuleKalenderen!</h2>
+          <div className="flex flex-row   ">
+            <div className=" p-5 w-[500px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor
+              sed viverra ipsum nunc aliquet bibendum enim. Tincidunt tortor
+              aliquam nulla facilisi cras fermentum. Dis parturient montes
+              nascetur ridiculus.
+            </div>
+            <Image
+              className=""
+              src={require("../assets/Beer_under_tree.jpg")}
+              width={500}
+              alt="beessssssssr"
+            />
           </div>
-          <Image
-            className=""
-            src={require("../assets/Beer_under_tree.jpg")}
-            width={500}
-            alt="beessssssssr"
-          />
-        </div>
-        <div className="w-full"></div>
-      </section>
+          <div className="w-full"></div>
+        </section>
+      </Link>
       <section id="kvartalsbeer">
         <h2 className="text-xl mt-32 mb-2 ">kvartalsøl!</h2>
         <div className="flex flex-row mt-2 ">

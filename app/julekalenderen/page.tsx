@@ -122,12 +122,18 @@ function JuleKalenderen() {
             )}
           </div>
 
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            15
-          </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            3
-          </div>
+          {new Date("2023-11-06") <= new Date() ? (
+            <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
+              15
+            </div>
+          ) : null}
+
+          {new Date("2023-11-07") <= new Date() ? (
+            <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
+              3
+            </div>
+          ) : null}
+
           <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
             7
           </div>

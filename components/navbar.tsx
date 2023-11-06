@@ -32,7 +32,7 @@ function MyNavBar() {
           href="#beerontap"
           className="p-1 ml-3 font-medium border-bajer-base px-2  hover:bg-bajer-secondary rounded-full"
         >
-          Beer on tap
+          BeerOnTap
         </Link>
 
         <Link

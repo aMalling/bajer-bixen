@@ -62,7 +62,7 @@ export default function Home() {
           </div>
           <div className="flex flex-row bg-white border border-gray-700 mt-3 shadow-md rounded-lg overflow-hidden ">
             <Image
-              src={require("../assets/beer_2.jpg")}
+              src={require("../assets/beer_17.jpg")}
               width={500}
               className="w-2/5 "
               alt="beessssssssr"

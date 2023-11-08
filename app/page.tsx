@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center mx-20">
       <section id="velkommen" className="text-xl mt-32 mb-2">
-        VELKOMMERN I BAJERBIXEN!
+        VELKOMMERN I BAJERBIXEN!!
       </section>
       <div className="flex flex-row">
         <Image

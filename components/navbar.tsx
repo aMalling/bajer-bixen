@@ -24,20 +24,20 @@ function MyNavBar() {
         </Link>
         <Link
           href="#bottlesalg"
-          className="p-1 ml-3 font-medium border-bajer-base px-2  hover:bg-bajer-secondary rounded-full "
+          className="p-1 ml-3 font-medium border-bajer-base px-2  hover:bg-bajer-secondary rounded-full md:hidden "
         >
           Løssalg
         </Link>
         <Link
           href="#beerontap"
-          className="p-1 ml-3 font-medium border-bajer-base px-2  hover:bg-bajer-secondary rounded-full"
+          className="p-1 ml-3 font-medium border-bajer-base px-2  hover:bg-bajer-secondary rounded-full md:hidden"
         >
           BeerOnTap
         </Link>
 
         <Link
           href="#contact"
-          className="p-1 ml-3 font-medium border-bajer-base px-2  hover:bg-bajer-secondary rounded-full"
+          className="p-1 ml-3 font-medium border-bajer-base px-2  hover:bg-bajer-secondary rounded-full md:hidden"
         >
           Kontakt
         </Link>

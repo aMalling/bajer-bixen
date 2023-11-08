@@ -91,12 +91,12 @@ function JuleKalenderen() {
           </div>
         )}
 
-        <div className="bg-white rounded-lg shadow-xl md:absolute md:opacity-30 border-4 border-0 bg-heroImage bg-gradient-to-r from-bajer-primary  from-10% via-bajer-secondary via-30%  to-bajer-primary to-90% flex flex-col justify-center md:grid gap-10 md:grid-cols-4 md:grid-rows-6 md:w-[840px] h-full p-10 ">
+        <div className="bg-white rounded-lg shadow-xl md:absolute md:opacity-30 border-0  flex flex-col justify-center md:grid gap-10 md:grid-cols-4 md:grid-rows-6 md:w-[840px] h-full p-10 ">
           <div
             onClick={handleClick}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-center m-2 border-4 overflow-hidden border-black bg-white cursor-pointer hover:opacity-100 opacity-20 border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold"
           >
-            {!toggle && <div>17</div>}
+            {!toggle && <div>1</div>}
             {toggle && (
               <Image
                 className=" transition"
@@ -109,9 +109,9 @@ function JuleKalenderen() {
 
           <div
             onClick={handleClick20}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-center m-2 border-4 overflow-hidden border-black bg-white cursor-pointer hover:opacity-100 opacity-20 border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold"
           >
-            {!toggle20 && <div>20</div>}
+            {!toggle20 && <div>2</div>}
             {toggle20 && (
               <Image
                 className=" transition"
@@ -123,76 +123,76 @@ function JuleKalenderen() {
           </div>
 
           {new Date("2023-11-06") <= new Date() ? (
-            <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-              15
-            </div>
-          ) : null}
-
-          {new Date("2023-11-07") <= new Date() ? (
-            <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
+            <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
               3
             </div>
           ) : null}
 
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            7
-          </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            4
-          </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            2
-          </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            24
-          </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            16
-          </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            19
-          </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            8
-          </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            14
-          </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            17
-          </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            13
-          </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            6
-          </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            23
-          </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            11
-          </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            18
-          </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            1
-          </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
+          {new Date("2023-11-07") <= new Date() ? (
+            <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
+              4
+            </div>
+          ) : null}
+
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
             5
           </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            22
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
+            6
           </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
-            10
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
+            7
           </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
+            8
+          </div>
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
             9
           </div>
-          <div className="m-2 h-48 w-48 md:w-auto md:h-auto border-4 border-black bg-white cursor-pointer hover:opacity-100 text-center md:pt-5 opacity-20 border-dashed text-lg font-semibold">
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
+            10
+          </div>
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
+            11
+          </div>
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
+            12
+          </div>
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
+            13
+          </div>
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
+            14
+          </div>
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
+            15
+          </div>
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
+            16
+          </div>
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
+            17
+          </div>
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
+            18
+          </div>
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
+            19
+          </div>
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
+            20
+          </div>
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
             21
+          </div>
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
+            22
+          </div>
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
+            23
+          </div>
+          <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
+            24
           </div>
         </div>
       </div>

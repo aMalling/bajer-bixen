@@ -37,7 +37,7 @@ function JuleKalenderen() {
           alt="Logo"
         />
         {toggle && (
-          <div className="absolute flex flex-col md:flex-row md:h-1/3 md:w-1/2 bg-white z-10 mt-2 right-0 shadow-xl">
+          <div className="absolute flex flex-col w-[260px] md:mx-0 md:flex-row md:h-1/3 md:w-1/2 bg-white border-1 border-black z-10 mt-2 md:right-0 shadow-xl">
             <button
               className="text-right bg mx-3 cursor-pointer"
               onClick={handleClick}
@@ -60,6 +60,9 @@ function JuleKalenderen() {
               sed viverra ipsum nunc aliquet bibendum enim. Tincidunt tortor
               aliquam nulla facilisi cras fermentum. Dis parturient montes
               nascetur ridiculus.
+              <p className="mt-2 italic underline text-blue-500 cursor-pointer">
+                check untapped
+              </p>
             </div>
           </div>
         )}
@@ -128,7 +131,7 @@ function JuleKalenderen() {
             </div>
           ) : null}
 
-          {new Date("2023-11-07") <= new Date() ? (
+          {new Date("2024-11-07") <= new Date() ? (
             <div className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold">
               4
             </div>

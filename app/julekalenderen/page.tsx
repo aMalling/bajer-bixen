@@ -67,7 +67,7 @@ function JuleKalenderen() {
           </div>
         )}
         {toggle20 && (
-          <div className="absolute flex flex-col md:flex-row md:h-1/3 md:w-1/2 bg-white z-10 mt-2 right-0 shadow-xl">
+          <div className="absolute flex flex-col w-[260px] md:mx-0 md:flex-row md:h-1/3 md:w-1/2 bg-white border-1 border-black z-10 mt-2 md:right-0 shadow-xl">
             <button
               className="text-right bg mx-3 cursor-pointer"
               onClick={handleClick20}
@@ -94,7 +94,7 @@ function JuleKalenderen() {
           </div>
         )}
 
-        <div className="bg-white rounded-lg shadow-xl md:absolute md:opacity-30 border-0  flex flex-col justify-center md:grid gap-10 md:grid-cols-4 md:grid-rows-6 md:w-[840px] h-full p-10 ">
+        <div className="bg-white rounded-lg shadow-xl md:absolute md:opacity-30 border-0 flex flex-col justify-center md:grid gap-10 md:grid-cols-4 md:grid-rows-6 md:w-[840px] h-full p-10 ">
           <div
             onClick={handleClick}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-20 md:border-dashed text-lg font-semibold"

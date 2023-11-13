@@ -3,19 +3,19 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center mx-20">
+    <main className="flex min-h-screen flex-col items-center md:mx-20">
       <section id="velkommen" className="text-xl mt-32 mb-2">
         VELKOMMERN I BAJERBIXEN!!
       </section>
-      <div className="flex flex-row">
+      <div className="flex ml-2 flex-col md:flex-row">
         <Image
-          className=""
+          className="px-10"
           src={require("../assets/bajerBixen_logo.png")}
           width={500}
           alt="Logo
           "
         />
-        <div className=" p-5 w-[500px]">
+        <div className=" px-5 md:w-[500px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed
           viverra ipsum nunc aliquet bibendum enim. Tincidunt tortor aliquam
@@ -24,8 +24,10 @@ export default function Home() {
         </div>
       </div>
       <section id="bottlesalg">
-        <h2 className="text-xl mt-32 mb-2 ">Løs salg</h2>
-        <div className="grid grid-cols-3 gap-5  ">
+        <h2 className="text-xl md:mt-32 mt-10 mb-2 font-bold ml-4 md:ml-0">
+          Løs salg
+        </h2>
+        <div className="flex-col mx-4 md:mx-0 md:grid grid-cols-3 gap-5  ">
           <div className="flex flex-row bg-white border border-gray-700 mt-3 shadow-md rounded-lg overflow-hidden ">
             <Image
               src={require("../assets/beer_231223.png")}
@@ -47,7 +49,7 @@ export default function Home() {
             <Image
               src={require("../assets/beer_4.jpg")}
               width={500}
-              className="w-2/5 "
+              className="w-2/5"
               alt="beessssssssr"
             />
             <div className=" w-3/5 flex flex-col justify-center items-center">
@@ -64,7 +66,7 @@ export default function Home() {
             <Image
               src={require("../assets/beer_17.jpg")}
               width={500}
-              className="w-2/5 "
+              className="w-2/5"
               alt="beessssssssr"
             />
             <div className=" w-3/5 flex flex-col justify-center items-center">
@@ -81,9 +83,11 @@ export default function Home() {
       </section>
       <Link href={"/julekalenderen"}>
         <section id="julekalenderen">
-          <h2 className="text-xl mt-32 mb-2 ">JuleKalenderen!</h2>
-          <div className="flex flex-row   ">
-            <div className=" p-5 w-[500px]">
+          <h2 className="font-bold text-xl mt-10 md:mt-32 mx-7">
+            JuleKalenderen!
+          </h2>
+          <div className="flex ml-2 flex-col md:flex-row  ">
+            <div className=" p-5 pt-1 md:w-[500px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor
               sed viverra ipsum nunc aliquet bibendum enim. Tincidunt tortor
@@ -91,7 +95,7 @@ export default function Home() {
               nascetur ridiculus.
             </div>
             <Image
-              className=""
+              className="px-5 "
               src={require("../assets/Beer_under_tree.jpg")}
               width={500}
               alt="beessssssssr"
@@ -101,16 +105,16 @@ export default function Home() {
         </section>
       </Link>
       <section id="kvartalsbeer">
-        <h2 className="text-xl mt-32 mb-2 ">kvartalsøl!</h2>
-        <div className="flex flex-row mt-2 ">
+        <h2 className="font-bold text-xl mt-10 md:mt-32 mx-7 ">Kvartalsøl!</h2>
+        <div className="flex ml-2 flex-col md:flex-row  ">
           <Image
-            className=""
+            className="px-5 "
             src={require("../assets/quarterly_bajer.jpg")}
             width={500}
             alt="Logo
             "
           />
-          <div className="p-5 w-[500px]">
+          <div className="p-5 md:w-[500px] ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor
             sed viverra ipsum nunc aliquet bibendum enim. Tincidunt tortor
@@ -121,9 +125,11 @@ export default function Home() {
       </section>
 
       <section id="beerontap">
-        <h2 className="text-xl mt-32 mb-2 ">Fadøl til fest og hver dag!</h2>
-        <div className="flex flex-row  ">
-          <div className=" p-5 w-[500px]">
+        <h2 className="font-bold text-xl mt-10 md:mt-32 mx-7">
+          Fadøl til fest og hver dag!
+        </h2>
+        <div className="flex ml-2 flex-col md:flex-row ">
+          <div className=" p-5 pt-0 md:w-[500px] ">
             {" "}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor
@@ -132,7 +138,7 @@ export default function Home() {
             nascetur ridiculus.
           </div>
           <Image
-            className=""
+            className="px-5"
             src={require("../assets/draft_beer.jpg")}
             width={500}
             alt="beessssssssr"

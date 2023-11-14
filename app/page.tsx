@@ -130,7 +130,6 @@ export default function Home() {
         </h2>
         <div className="flex ml-2 flex-col md:flex-row ">
           <div className=" p-5 pt-0 md:w-[500px] ">
-            {" "}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor
             sed viverra ipsum nunc aliquet bibendum enim. Tincidunt tortor

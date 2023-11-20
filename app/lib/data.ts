@@ -10,7 +10,7 @@ interface BeerCalenderDataInterface {
   untappdlink: string;
 }
 
-export const beerCalenderData: Array<BeerCalenderDataInterface> = [
+export const beerCalenderData: any = [
   {
     dato: "01",
     bryggeri: "Jackie O's Brewery",

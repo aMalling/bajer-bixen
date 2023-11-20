@@ -2,12 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { beerCalenderData } from "@/app/lib/data";
 function MyCard() {
-  const propsDate = 6;
+  const propsDate = 21;
   const beerInfo = beerCalenderData[propsDate - 1];
 
   return (
     <div>
-      {new Date(`2023-12-${beerInfo.dato}`) <= new Date() ? (
+      {new Date(`2023-11-${beerInfo.dato}`) <= new Date() ? (
         <div className="absolute flex mx-3 flex-col w-[260px] md:mx-0 md:flex-row md:h-1/3 md:w-1/2 bg-white border-1 border-black z-10 mt-2 md:right-0 shadow-xl">
           <button className="text-right bg mx-3 cursor-pointer">x</button>
           <Image

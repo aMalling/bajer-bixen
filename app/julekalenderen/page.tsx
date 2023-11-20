@@ -126,6 +126,7 @@ function JuleKalenderen() {
     setToggle24(!toggle24);
     console.log(toggle24);
   }
+
   return (
     <main>
       <div className="flex flex-col justify-center items-center mt-10">
@@ -136,7 +137,6 @@ function JuleKalenderen() {
           alt="Logo"
         />
       </div>
-
       <div className="md:hidden grid grid-cols-2 h-4 w-full">
         <div className="border-r-4 border-black"></div>
       </div>
@@ -149,20 +149,124 @@ function JuleKalenderen() {
         />
         {toggle1 && (
           <div onClick={handleClick1}>
-            <MyCard></MyCard>
+            <MyCard calenderDate={{ dato: 1 }}></MyCard>
           </div>
         )}
         {toggle2 && (
           <div onClick={handleClick2}>
-            <MyCard></MyCard>
+            <MyCard calenderDate={{ dato: 2 }}></MyCard>
           </div>
         )}
         {toggle3 && (
           <div onClick={handleClick3}>
-            <MyCard></MyCard>
+            <MyCard calenderDate={{ dato: 3 }}></MyCard>
           </div>
         )}
-
+        {toggle4 && (
+          <div onClick={handleClick4}>
+            <MyCard calenderDate={{ dato: 4 }}></MyCard>
+          </div>
+        )}
+        {toggle5 && (
+          <div onClick={handleClick5}>
+            <MyCard calenderDate={{ dato: 5 }}></MyCard>
+          </div>
+        )}
+        {toggle6 && (
+          <div onClick={handleClick6}>
+            <MyCard calenderDate={{ dato: 6 }}></MyCard>
+          </div>
+        )}
+        {toggle7 && (
+          <div onClick={handleClick7}>
+            <MyCard calenderDate={{ dato: 7 }}></MyCard>
+          </div>
+        )}
+        {toggle8 && (
+          <div onClick={handleClick8}>
+            <MyCard calenderDate={{ dato: 8 }}></MyCard>
+          </div>
+        )}
+        {toggle9 && (
+          <div onClick={handleClick9}>
+            <MyCard calenderDate={{ dato: 9 }}></MyCard>
+          </div>
+        )}
+        {toggle10 && (
+          <div onClick={handleClick10}>
+            <MyCard calenderDate={{ dato: 10 }}></MyCard>
+          </div>
+        )}
+        {toggle11 && (
+          <div onClick={handleClick11}>
+            <MyCard calenderDate={{ dato: 11 }}></MyCard>
+          </div>
+        )}
+        {toggle12 && (
+          <div onClick={handleClick12}>
+            <MyCard calenderDate={{ dato: 12 }}></MyCard>
+          </div>
+        )}
+        {toggle13 && (
+          <div onClick={handleClick13}>
+            <MyCard calenderDate={{ dato: 13 }}></MyCard>
+          </div>
+        )}
+        {toggle14 && (
+          <div onClick={handleClick14}>
+            <MyCard calenderDate={{ dato: 14 }}></MyCard>
+          </div>
+        )}
+        {toggle15 && (
+          <div onClick={handleClick15}>
+            <MyCard calenderDate={{ dato: 15 }}></MyCard>
+          </div>
+        )}
+        {toggle16 && (
+          <div onClick={handleClick16}>
+            <MyCard calenderDate={{ dato: 16 }}></MyCard>
+          </div>
+        )}
+        {toggle17 && (
+          <div onClick={handleClick17}>
+            <MyCard calenderDate={{ dato: 17 }}></MyCard>
+          </div>
+        )}
+        {toggle18 && (
+          <div onClick={handleClick18}>
+            <MyCard calenderDate={{ dato: 18 }}></MyCard>
+          </div>
+        )}
+        {toggle19 && (
+          <div onClick={handleClick19}>
+            <MyCard calenderDate={{ dato: 19 }}></MyCard>
+          </div>
+        )}
+        {toggle20 && (
+          <div onClick={handleClick20}>
+            <MyCard calenderDate={{ dato: 20 }}></MyCard>
+          </div>
+        )}
+        {toggle21 && (
+          <div onClick={handleClick21}>
+            <MyCard calenderDate={{ dato: 21 }}></MyCard>
+          </div>
+        )}
+        {toggle22 && (
+          <div onClick={handleClick22}>
+            <MyCard calenderDate={{ dato: 22 }}></MyCard>
+          </div>
+        )}
+        {toggle23 && (
+          <div onClick={handleClick23}>
+            <MyCard calenderDate={{ dato: 23 }}></MyCard>
+          </div>
+        )}
+        {toggle24 && (
+          <div onClick={handleClick24}>
+            <MyCard calenderDate={{ dato: 24 }}></MyCard>
+          </div>
+        )}
         <div className="bg-white rounded-lg shadow-xl md:absolute md:opacity-30 border-0 flex flex-col justify-center md:grid gap-10 md:grid-cols-4 md:grid-rows-6 md:w-[840px] h-full p-10 ">
           <div
             onClick={handleClick1}

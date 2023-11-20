@@ -1,9 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { beerCalenderData } from "@/app/lib/data";
-function MyCard() {
-  const propsDate = 10;
-  const beerInfo = beerCalenderData[propsDate - 1];
+function MyCard({ calenderDate }) {
+  const beerInfo = beerCalenderData[calenderDate.dato - 1];
+  console.log(calenderDate.dato);
+
+  /*   console.log(calenderDate - 1);
+  const beerInfo = beerCalenderData[calenderDate - 1];
+ */
 
   return (
     <div>

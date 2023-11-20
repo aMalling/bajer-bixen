@@ -17,7 +17,8 @@ export const beerCalenderData: any = [
     navn: "Forward Into Yesterday",
     land: "USA",
     alkohol: "14,2",
-    brødtekst: "tom",
+    brødtekst:
+      "SURPRISE! Vi var simpelthen så umådeligt heldige at vi fik lov til at købe hele to forskellige flasker Cantillon. Og hvilken bedre måde at fejre juleferien på end at få sig en øl med kirsebær i? ",
     untappdlink:
       "https://untappd.com/b/jackie-o-s-brewery-forward-into-yesterday/4585575",
   },
@@ -27,7 +28,8 @@ export const beerCalenderData: any = [
     navn: "Rocky Mountain Barrel-Aged Q.O.R.I.S. the Quasher Quadruple Oatmeal Russian Imperial Stout",
     land: "USA",
     alkohol: "15,7",
-    brødtekst: "tom",
+    brødtekst:
+      "Timber Ales var nye i kalenderen sidste år. En ikke-fadlagret stout der virkelig slog benene væk under folket. Da chancen bød sig for igen at få en stout-basse fra TA så var der ikke så meget at rafle om. En stout med vanilje, kaffe og ristede peanuts. Hvad mere kan man sige? DRIK!",
     untappdlink:
       "https://untappd.com/b/hoppin-frog-brewery-rocky-mountain-barrel-aged-q-o-r-i-s-the-quasher-quadruple-oatmeal-russian-imperial-stout/4566617",
   },
@@ -37,7 +39,8 @@ export const beerCalenderData: any = [
     navn: "Bourbon Barrel Aged Plead The 5th ",
     land: "USA",
     alkohol: "11,0",
-    brødtekst: "tom",
+    brødtekst:
+      "Velkommen til Øljulekalenderen anno 2023! Vi glæder os til at rejse igennem julen med kæften fuld af opturslæske alt imens vi deler oplevelsen med hinanden - IRL eller virtuelt. Vi er sindssygt stole over kalenderen i år. Og første øl er vi selv rimelig WTF (Why The Face) over at have fået med. Other Half er et amerikansk bryggeri som især er kendt for deres IPA’er. Øller der sjældent er til at få fingrene i i DK og som ofte er voldsomt dyre at få “lov” til at købe. Vi synes det er passende at sparke juledøren ind med denne basker af en dobbelt tørhumlet DIPA fra Other Half. For I, kære købere, fortjener det bedste i verden!",
     untappdlink:
       "https://untappd.com/b/dark-horse-brewing-co-bourbon-barrel-aged-plead-the-5th/34285",
   },

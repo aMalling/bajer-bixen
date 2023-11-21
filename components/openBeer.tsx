@@ -6,7 +6,7 @@ function OpenBeer() {
       {new Date("2022-12-01") <= new Date() ? (
         <Image
           className="md:bg-black p-3 transition"
-          src={require("@/assets/bajerBixen_logo.png")}
+          src={require("@/assets/bajerBiksen_logo.png")}
           width={200}
           alt="Logo"
         />

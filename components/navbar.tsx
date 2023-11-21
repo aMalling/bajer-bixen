@@ -3,19 +3,23 @@ import Link from "next/link";
 
 function MyNavBar() {
   return (
-    <div className="grid grid-cols-2 shadow-md items-center bg-bajer-primary text-bajer-base">
-      <Link href="#velkommen">
-        <div className="flex pl-3 col-span-1 items-center justify-start">
-          <Image
-            src={require("../assets/bajerBixen_logo.png")}
-            className="py-1 inline bg-baj"
-            width={50}
-            alt="icon"
-          />
-          <h2 className="text-xl ml-2 inline">BajerBixen</h2>
-        </div>
-      </Link>
-      <div className="flex flex-none justify-end col-start-2 col-span-1">
+    <div className="grid grid-cols-3 shadow-md items-center bg-bajer-primary text-bajer-base">
+      <div className="flex pl-3 items-center justify-start">
+        <Image
+          src={require("../assets/bajerBiksen_logo.png")}
+          className="py-1 inline bg-baj"
+          width={50}
+          alt="icon"
+        />
+        <h2 className="text-xl ml-2 inline">BajerBiksen</h2>
+      </div>
+
+      <h2 className="text-xl ml-2 font-semibold inline text-center">
+        {" "}
+        ØLJULEKALENDERN 2023
+      </h2>
+
+      {/* <div className="flex flex-none justify-end col-start-2 col-span-1">
         <Link
           href="#julekalenderen"
           className="p-1 ml-3 font-medium border-bajer-base px-2  hover:bg-bajer-secondary rounded-full"
@@ -41,7 +45,7 @@ function MyNavBar() {
         >
           Kontakt
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }

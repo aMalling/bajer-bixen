@@ -15,7 +15,6 @@ function MyNavBar() {
       </div>
 
       <h2 className="text-xl ml-2 font-semibold inline text-center">
-        {" "}
         ØLJULEKALENDERN 2023
       </h2>
 

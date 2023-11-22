@@ -227,11 +227,7 @@ function JuleKalenderen() {
             <MyCard calenderDate={{ dato: 16 }}></MyCard>
           </div>
         )}
-        {toggle17 && (
-          <div onClick={handleClick17}>
-            <MyCard calenderDate={{ dato: 17 }}></MyCard>
-          </div>
-        )}
+
         {toggle18 && (
           <div onClick={handleClick18}>
             <MyCard calenderDate={{ dato: 18 }}></MyCard>
@@ -382,10 +378,15 @@ function JuleKalenderen() {
           </div>{" "}
           <div
             onClick={handleClick17}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="static flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle17 && <div>17</div>}
             {toggle17 && <OpenBeer />}
+            {toggle17 && (
+              <div onClick={handleClick17}>
+                <MyCard calenderDate={{ dato: 17 }}></MyCard>
+              </div>
+            )}
           </div>
           <div
             onClick={handleClick18}

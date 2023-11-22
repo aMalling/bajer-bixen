@@ -229,7 +229,7 @@ function JuleKalenderen() {
         )}
         {toggle17 && (
           <div onClick={handleClick17}>
-            <MyCard calenderDate={{ dato: 17 }}></MyCard>
+            <MyCard calenderDate={{ dato: 17, top: "top-[2000px]" }}></MyCard>
           </div>
         )}
         {toggle18 && (

@@ -149,17 +149,17 @@ function JuleKalenderen() {
         />
         {toggle1 && (
           <div onClick={handleClick1}>
-            <MyCard calenderDate={{ dato: 1 }}></MyCard>
+            <MyCard calenderDate={{ dato: 1, top: "0px" }}></MyCard>
           </div>
         )}
         {toggle2 && (
           <div onClick={handleClick2}>
-            <MyCard calenderDate={{ dato: 2 }}></MyCard>
+            <MyCard calenderDate={{ dato: 2, top: "240px" }}></MyCard>
           </div>
         )}
         {toggle3 && (
           <div onClick={handleClick3}>
-            <MyCard calenderDate={{ dato: 3 }}></MyCard>
+            <MyCard calenderDate={{ dato: 3, top: "490px" }}></MyCard>
           </div>
         )}
         {toggle4 && (

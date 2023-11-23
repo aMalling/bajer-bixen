@@ -144,7 +144,7 @@ function JuleKalenderen() {
         <Image
           className="hidden md:flex border-4 border-black "
           src={require("@/assets/tree.jpg")}
-          width={675}
+          width={850}
           alt="Logo"
         />
         {toggle1 && (

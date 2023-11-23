@@ -143,7 +143,7 @@ function JuleKalenderen() {
       <div className="relative flex justify-center ">
         <Image
           className="hidden md:flex border-4 border-black "
-          src={require("@/assets/tree.jpg")}
+          src={require("@/assets/house.jpg")}
           width={850}
           alt="Logo"
         />

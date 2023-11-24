@@ -267,7 +267,7 @@ function JuleKalenderen() {
             <MyCard calenderDate={{ dato: 24, top: "5704px" }}></MyCard>
           </div>
         )}
-        <div className="bg-white rounded-lg shadow-xl md:absolute md:bg-opacity-30 border-0 flex flex-col justify-center md:grid gap-10 md:grid-cols-4 md:grid-rows-6 md:w-[840px] h-full p-10 ">
+        <div className="bg-white rounded-lg shadow-xl md:absolute md:bg-opacity-30 border-0 flex flex-col justify-center md:grid gap-10 md:grid-cols-4 md:grid-rows-6 md:w-[862px] h-full p-10 ">
           <div
             onClick={handleClick1}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"

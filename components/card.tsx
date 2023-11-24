@@ -22,7 +22,8 @@ function MyCard({ calenderDate }) {
             </button>
             <Image
               className=""
-              src={require("@/assets/beer_17.jpg")}
+              /* src={require("@/assets/beer_17.jpg")} */
+              src={require(`@/assets/beer_${beerInfo.dato}.jpg`)}
               width={300}
               alt="Logo"
             />
@@ -45,7 +46,8 @@ function MyCard({ calenderDate }) {
             </button>
             <Image
               className=""
-              src={require("@/assets/beer_17.jpg")}
+              /* src={require("@/assets/beer_17.jpg")} */
+              src={require(`@/assets/beer_${beerInfo.dato}.jpg`)}
               width={300}
               alt="Logo"
             />

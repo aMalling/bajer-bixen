@@ -11,7 +11,7 @@ function MyNavBar() {
           width={50}
           alt="icon"
         />
-        <h2 className="hidden md:flex text-xl ml-2 inline">BajerBiksen</h2>
+        <h2 className="hidden md:flex text-xl ml-2 ">BajerBiksen</h2>
       </div>
 
       <h2 className="text-xl ml-2 font-semibold inline text-center">

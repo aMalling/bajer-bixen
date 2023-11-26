@@ -6,7 +6,7 @@ function OpenBeer() {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 1.5, delay: 1.5 }}
+      transition={{ duration: 1, delay: 1 }}
     >
       {new Date("2022-12-01") <= new Date() ? (
         <Image

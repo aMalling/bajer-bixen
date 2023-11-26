@@ -36,11 +36,17 @@ function MyCard({ calenderDate }) {
               <p className="italic font-semibold ">{beerInfo.land}</p>
               <p className="italic mb-5">{beerInfo.bryggeri}</p>
               {beerInfo.brødtekst}
-              <Link href={beerInfo.untappdlink}>
-                <p className="mt-2 italic underline text-blue-500 cursor-pointer">
-                  Untapped
-                </p>
-              </Link>
+              <div className="mt-4">
+                <Link href={beerInfo.untappdlink}>
+                  <button>
+                    <Image
+                      src={require("@/assets/untappd_button_icon.png")}
+                      width={100}
+                      alt="Logo"
+                    />
+                  </button>
+                </Link>
+              </div>
             </div>
           </motion.div>
           <motion.div
@@ -65,11 +71,17 @@ function MyCard({ calenderDate }) {
               <p className="italic font-semibold ">{beerInfo.land}</p>
               <p className="italic mb-5">{beerInfo.bryggeri}</p>
               {beerInfo.brødtekst}
-              <Link href={beerInfo.untappdlink}>
-                <p className="mt-2 italic underline text-blue-500 cursor-pointer">
-                  Untapped
-                </p>
-              </Link>
+              <div className="mt-4">
+                <Link href={beerInfo.untappdlink}>
+                  <button>
+                    <Image
+                      src={require("@/assets/untappd_button_icon.png")}
+                      width={100}
+                      alt="Logo"
+                    />
+                  </button>
+                </Link>
+              </div>
             </div>
           </motion.div>
         </div>

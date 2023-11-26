@@ -12,7 +12,7 @@ function MyCard({ calenderDate }) {
 
   return (
     <div>
-      {new Date(`2023-11-${beerInfo.dato}`) <= new Date() ? (
+      {new Date(`2023-12-${beerInfo.dato}`) <= new Date() ? (
         <div>
           <motion.div
             initial={{ opacity: 0.4, y: -15 }}

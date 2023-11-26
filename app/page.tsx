@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 import MyCard from "@/components/card";
 import OpenBeer from "@/components/openBeer";
+import { motion } from "framer-motion";
 
 function JuleKalenderen() {
   const [toggle1, setToggle1] = useState(false);
@@ -148,9 +149,9 @@ function JuleKalenderen() {
           alt="Logo"
         />
         {toggle1 && (
-          <div onClick={handleClick1}>
+          <motion.div onClick={handleClick1}>
             <MyCard calenderDate={{ dato: 1, top: "0px" }}></MyCard>
-          </div>
+          </motion.div>
         )}
         {toggle2 && (
           <div onClick={handleClick2}>

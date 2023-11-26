@@ -1,8 +1,13 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 function OpenBeer() {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1.5, delay: 1.5 }}
+    >
       {new Date("2022-12-01") <= new Date() ? (
         <Image
           className="md:bg-black p-3 transition"
@@ -13,7 +18,7 @@ function OpenBeer() {
       ) : (
         <div>1 </div>
       )}
-    </div>
+    </motion.div>
   );
 }
 

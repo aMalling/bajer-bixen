@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { beerCalenderData } from "@/app/lib/data";
+import { motion } from "framer-motion";
 function MyCard({ calenderDate }) {
   const beerInfo = beerCalenderData[calenderDate.dato - 1];
 
@@ -13,9 +14,13 @@ function MyCard({ calenderDate }) {
     <div>
       {new Date(`2023-11-${beerInfo.dato}`) <= new Date() ? (
         <div>
-          <div
+          <motion.div
+            className="z-40"
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
             style={{ top: calenderDate.top }}
-            className="absolute md:fixed flex mx-3 flex-col w-[265px]  md:mx-0 md:flex-row md:h-1/3 md:w-1/2 bg-white border-1 border-black z-10 mt-2 md:right-1/4 md:top-1/4 shadow-xl md:hidden"
+            className="absolute md:fixed flex mx-3 flex-col w-[265px] md:mx-0 md:flex-row md:h-1/3 md:w-1/2 bg-white border-1 border-black z-10 mt-2 md:right-1/4 md:top-1/4 shadow-xl md:hidden"
           >
             <button className=" absolute top-0 right-0 text-right bg mx-3 p-1 shadow-sm rounded-full cursor-pointer">
               x
@@ -39,8 +44,14 @@ function MyCard({ calenderDate }) {
                 </p>
               </Link>
             </div>
-          </div>
-          <div className="absolute md:fixed hidden md:flex mx-3 flex-col w-[265px] md:mx-0 md:flex-row md:h-1/3 md:w-[850px] bg-orange-50 border-1 border-black z-10 mt-2 md:right-1/4 md:top-1/4 shadow-xl ">
+          </motion.div>
+          <motion.div
+            className="z-40"
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className=" md:fixed hidden md:flex mx-3 flex-col w-[265px] md:mx-0 md:flex-row md:h-1/3 md:w-[850px] bg-orange-50 border-1 border-black z-10 mt-2 md:right-0 md:left-0 md:mx-auto md:top-1/4 shadow-xl "
+          >
             <button className=" absolute top-0 right-0 text-right bg mx-3 p-1 shadow-sm rounded-full cursor-pointer">
               x
             </button>
@@ -63,7 +74,7 @@ function MyCard({ calenderDate }) {
                 </p>
               </Link>
             </div>
-          </div>
+          </motion.div>
         </div>
       ) : null}
     </div>

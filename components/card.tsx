@@ -15,12 +15,11 @@ function MyCard({ calenderDate }) {
       {new Date(`2023-11-${beerInfo.dato}`) <= new Date() ? (
         <div>
           <motion.div
-            className="z-40"
             initial={{ opacity: 0.4, y: -15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
             style={{ top: calenderDate.top }}
-            className="absolute flex mx-3 flex-col w-[265px] bg-white border-1 border-black z-10 mt-2 shadow-xl md:hidden"
+            className=" z-40 absolute flex mx-3 flex-col w-[265px] bg-white border-1 border-black z-10 mt-2 shadow-xl md:hidden"
           >
             <button className="absolute top-0 right-0 text-right mx-3 p-1 shadow-sm rounded-full cursor-pointer">
               x
@@ -45,11 +44,10 @@ function MyCard({ calenderDate }) {
             </div>
           </motion.div>
           <motion.div
-            className="z-40"
             initial={{ opacity: 0.4, y: -15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className=" md:fixed hidden md:flex flex-col w-[265px]  md:flex-row md:h-1/3 md:w-[850px] bg-orange-50 border-1 border-black z-10 mt-2 md:right-0 md:left-0 md:mx-auto md:top-1/4 shadow-xl "
+            className=" z-40 md:fixed hidden md:flex flex-col w-[265px]  md:flex-row md:h-1/3 md:w-[850px] bg-orange-50 border-1 border-black z-10 mt-2 md:right-0 md:left-0 md:mx-auto md:top-1/4 shadow-xl "
           >
             <button className=" absolute top-0 right-0 text-right bg mx-3 p-1 shadow-sm rounded-full cursor-pointer">
               x

@@ -143,8 +143,14 @@ function JuleKalenderen() {
       </div>
       <div className="relative flex justify-center ">
         <Image
-          className="hidden md:flex border-4 border-black "
+          className="hidden md:flex 2xl:hidden border-4 border-black "
           src={require("@/assets/tree.jpg")}
+          width={500}
+          alt="Logo"
+        />
+        <Image
+          className="hidden 2xl:flex border-4 border-black "
+          src={require("@/assets/house.jpg")}
           width={850}
           alt="Logo"
         />
@@ -268,171 +274,171 @@ function JuleKalenderen() {
             <MyCard calenderDate={{ dato: 24, top: "5704px" }}></MyCard>
           </div>
         )}
-        <div className="bg-white rounded-lg shadow-xl md:absolute md:bg-opacity-30 border-0 flex flex-col justify-center md:grid gap-10 md:grid-cols-4 md:grid-rows-6 md:w-[862px] h-full p-10 ">
+        <div className="bg-white rounded-lg shadow-xl md:absolute md:bg-opacity-30 border-0 flex flex-col justify-center md:grid gap-10 md:gap-2 2xl:gap-10 md:grid-cols-4 md:grid-rows-6 md:w-[500px] 2xl:w-[862px] h-full p-10 md:p-6 2xl:p-10  ">
           <div
             onClick={handleClick1}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle1 && <div>1</div>}
             {toggle1 && <OpenBeer calenderDate={{ dato: 1 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick2}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle2 && <div>2</div>}
             {toggle2 && <OpenBeer calenderDate={{ dato: 2 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick3}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle3 && <div>3</div>}
             {toggle3 && <OpenBeer calenderDate={{ dato: 3 }}> </OpenBeer>}
           </div>{" "}
           <div
             onClick={handleClick4}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle4 && <div>4</div>}
             {toggle4 && <OpenBeer calenderDate={{ dato: 4 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick5}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle5 && <div>5</div>}
             {toggle5 && <OpenBeer calenderDate={{ dato: 5 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick6}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle6 && <div>6</div>}
             {toggle6 && <OpenBeer calenderDate={{ dato: 6 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick7}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle7 && <div>7</div>}
             {toggle7 && <OpenBeer calenderDate={{ dato: 7 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick8}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle8 && <div>8</div>}
             {toggle8 && <OpenBeer calenderDate={{ dato: 8 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick9}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle9 && <div>9</div>}
             {toggle9 && <OpenBeer calenderDate={{ dato: 9 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick10}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle10 && <div>10</div>}
             {toggle10 && <OpenBeer calenderDate={{ dato: 10 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick11}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle11 && <div>11</div>}
             {toggle11 && <OpenBeer calenderDate={{ dato: 11 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick12}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle12 && <div>12</div>}
             {toggle12 && <OpenBeer calenderDate={{ dato: 12 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick13}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle13 && <div>13</div>}
             {toggle13 && <OpenBeer calenderDate={{ dato: 13 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick14}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle14 && <div>14</div>}
             {toggle14 && <OpenBeer calenderDate={{ dato: 14 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick15}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle15 && <div>15</div>}
             {toggle15 && <OpenBeer calenderDate={{ dato: 15 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick16}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle16 && <div>16</div>}
             {toggle16 && <OpenBeer calenderDate={{ dato: 16 }}> </OpenBeer>}
           </div>{" "}
           <div
             onClick={handleClick17}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle17 && <div>17</div>}
             {toggle17 && <OpenBeer calenderDate={{ dato: 17 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick18}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle18 && <div>18</div>}
             {toggle18 && <OpenBeer calenderDate={{ dato: 18 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick19}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle19 && <div>19</div>}
             {toggle19 && <OpenBeer calenderDate={{ dato: 19 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick20}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle20 && <div>20</div>}
             {toggle20 && <OpenBeer calenderDate={{ dato: 20 }}> </OpenBeer>}
           </div>{" "}
           <div
             onClick={handleClick21}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle21 && <div>21</div>}
             {toggle21 && <OpenBeer calenderDate={{ dato: 21 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick22}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle22 && <div>22</div>}
             {toggle22 && <OpenBeer calenderDate={{ dato: 22 }}> </OpenBeer>}
           </div>{" "}
           <div
             onClick={handleClick23}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle23 && <div>23</div>}
             {toggle23 && <OpenBeer calenderDate={{ dato: 23 }}> </OpenBeer>}
           </div>
           <div
             onClick={handleClick24}
-            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
+            className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle24 && <div>24</div>}
             {toggle24 && <OpenBeer calenderDate={{ dato: 24 }}> </OpenBeer>}

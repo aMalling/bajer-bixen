@@ -48,7 +48,7 @@ function MyCard({ calenderDate }) {
             initial={{ opacity: 0.4, y: -15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className=" z-40 md:fixed hidden md:flex flex-col w-[265px]  md:flex-row  md:w-[850px] bg-orange-50 border-1 border-black z-10 mt-2 md:right-0 md:left-0 md:mx-auto md:top-1/4 shadow-xl "
+            className=" z-40 md:fixed hidden md:flex flex-col w-[265px] md:flex-row md:w-[750px] 2xl:w-[850px] bg-orange-50 border-1 border-black mt-2 md:right-0 md:left-0 md:mx-auto md:top-20 2xl:top-1/4 shadow-xl "
           >
             <button className=" absolute top-0 right-0 text-right bg mx-3 p-1 shadow-sm rounded-full cursor-pointer">
               x

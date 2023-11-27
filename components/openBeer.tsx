@@ -12,7 +12,7 @@ function OpenBeer(calenderDate: any) {
       animate={{ opacity: 1 }}
       transition={{ duration: 1, delay: 1 }}
     >
-      {new Date(`2023-12-${calenderDate.calenderDate.dato}`) <= new Date() ? (
+      {new Date(`2023-11-${calenderDate.calenderDate.dato}`) <= new Date() ? (
         <Image
           className="md:bg-black p-3 transition"
           src={require("@/assets/bajerBiksen_logo.png")}

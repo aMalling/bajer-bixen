@@ -1,10 +1,10 @@
-"use ";
+"use client ";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { beerCalenderData } from "@/app/lib/data";
 
 function OpenBeer(calenderDate: any) {
-  const beerInfo: any = beerCalenderData[calenderDate.dato - 1];
+  console.log(calenderDate.calenderDate.dato);
 
   return (
     <motion.div
@@ -12,7 +12,7 @@ function OpenBeer(calenderDate: any) {
       animate={{ opacity: 1 }}
       transition={{ duration: 1, delay: 1 }}
     >
-      {new Date(`2023-12-${beerInfo.dato}`) <= new Date() ? (
+      {new Date(`2023-12-${calenderDate.calenderDate.dato}`) <= new Date() ? (
         <Image
           className="md:bg-black p-3 transition"
           src={require("@/assets/bajerBiksen_logo.png")}
@@ -20,7 +20,7 @@ function OpenBeer(calenderDate: any) {
           alt="Logo"
         />
       ) : (
-        <div>{calenderDate.dato} </div>
+        <div>{calenderDate.calenderDate.dato} </div>
       )}
     </motion.div>
   );

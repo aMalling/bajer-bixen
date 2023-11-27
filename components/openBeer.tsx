@@ -1,8 +1,11 @@
+"use ";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { beerCalenderData } from "@/app/lib/data";
-
-function OpenBeer({ calenderDate }) {
+type BeerProps = {
+  dato: string;
+};
+function OpenBeer(calenderDate: BeerProps) {
   const beerInfo = beerCalenderData[calenderDate.dato - 1];
 
   return (

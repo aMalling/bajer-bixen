@@ -3,7 +3,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { beerCalenderData } from "@/app/lib/data";
 type BeerProps = {
-  dato: string;
+  dato: number;
 };
 function OpenBeer(calenderDate: BeerProps) {
   const beerInfo = beerCalenderData[calenderDate.dato - 1];

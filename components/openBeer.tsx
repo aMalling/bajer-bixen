@@ -2,11 +2,9 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { beerCalenderData } from "@/app/lib/data";
-type BeerProps = {
-  dato: number;
-};
-function OpenBeer(calenderDate: BeerProps) {
-  const beerInfo = beerCalenderData[calenderDate.dato - 1];
+
+function OpenBeer(calenderDate: any) {
+  const beerInfo: any = beerCalenderData[calenderDate.dato - 1];
 
   return (
     <motion.div

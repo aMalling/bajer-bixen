@@ -27,7 +27,7 @@ function MyCard({ calenderDate }) {
             />
             <div className="p-3">
               <p className="font-bold text-lg"> {beerInfo.navn}</p>
-              <p className="text-sm">DIPA {beerInfo.alkohol} ABV</p>
+              <p className="text-sm"> {beerInfo.Alkohol} </p>
               <p className="italic font-semibold ">{beerInfo.land}</p>
               <p className="italic mb-5">{beerInfo.bryggeri}</p>
               {beerInfo.brødtekst}

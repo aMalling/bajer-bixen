@@ -17,7 +17,7 @@ function MyCard({ calenderDate }) {
             style={{ top: calenderDate.top }}
             className=" z-40 absolute flex mx-3 flex-col w-[265px] bg-white border-1 border-black z-10 mt-2 shadow-xl md:hidden"
           >
-            <button className="absolute top-0 right-0 text-right mx-3 p-1 shadow-sm rounded-full cursor-pointer">
+            <button className="absolute top-0 right-0 text-right mx-3 p-1 shadow-sm rounded-full cursor-pointer text-gray-100 font-semibold">
               x
             </button>
             <Image
@@ -26,11 +26,12 @@ function MyCard({ calenderDate }) {
               alt="Logo"
             />
             <div className="p-3">
-              <p className="font-bold text-lg"> {beerInfo.navn}</p>
-              <p className="text-sm"> {beerInfo.Alkohol} </p>
-              <p className="italic font-semibold ">{beerInfo.land}</p>
-              <p className="italic mb-5">{beerInfo.bryggeri}</p>
-              {beerInfo.brødtekst}
+              <p className="font-bold text-lg "> {beerInfo.navn}</p>
+              <p className="italic font-serif ">{beerInfo.bryggeri}</p>
+              <p className="text-sm font-semibold"> {beerInfo.Alkohol}% </p>
+              <p className="italic font-semibold mb-3 ">{beerInfo.land}</p>
+              <p className="font-serif">{beerInfo.brødtekst}</p>
+
               <div className="mt-4">
                 <Link href={beerInfo.untappdlink}>
                   <button>
@@ -60,10 +61,11 @@ function MyCard({ calenderDate }) {
               alt="Logo"
             />
             <div className="p-3">
-              <p className="font-bold text-lg"> {beerInfo.navn}</p>
-              <p className="text-sm">DIPA {beerInfo.alkohol} ABV</p>
-              <p className="italic font-semibold ">{beerInfo.land}</p>
-              <p className="italic mb-5">{beerInfo.bryggeri}</p>
+              <p className="font-bold text-lg "> {beerInfo.navn}</p>
+              <p className="italic font-serif ">{beerInfo.bryggeri}</p>
+              <p className="text-sm font-semibold"> {beerInfo.Alkohol}% </p>
+              <p className="italic font-semibold mb-3 ">{beerInfo.land}</p>
+              <p className="font-serif">{beerInfo.brødtekst}</p>
               {beerInfo.brødtekst}
               <div className="mt-4">
                 <Link href={beerInfo.untappdlink}>

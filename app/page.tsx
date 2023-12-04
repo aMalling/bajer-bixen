@@ -31,7 +31,36 @@ function JuleKalenderen() {
   const [toggle23, setToggle23] = useState(false);
   const [toggle24, setToggle24] = useState(false);
 
+  /*   function closeOthers() {
+    setToggle1(false);
+    setToggle2(false);
+    setToggle3(false);
+    setToggle4(false);
+    setToggle5(false);
+    setToggle6(false);
+    setToggle7(false);
+    setToggle8(false);
+    setToggle9(false);
+    setToggle10(false);
+    setToggle11(false);
+    setToggle12(false);
+    setToggle13(false);
+    setToggle14(false);
+    setToggle15(false);
+    setToggle16(false);
+    setToggle17(false);
+    setToggle18(false);
+    setToggle19(false);
+    setToggle20(false);
+    setToggle21(false);
+    setToggle22(false);
+    setToggle23(false);
+    setToggle24(false);
+    console.log(toggle1);
+    console.log("hehe");
+  } */
   function handleClick1() {
+    /*     closeOthers(); */
     setToggle1(!toggle1);
     console.log(toggle1);
   }
@@ -130,9 +159,9 @@ function JuleKalenderen() {
 
   return (
     <main>
-      <div className="flex flex-col justify-center items-center mt-10">
+      <div className="md:hidden flex flex-col justify-center items-center mt-10">
         <Image
-          className="md:hidden"
+          className=""
           src={require("@/assets/flame.png")}
           width={50}
           alt="Logo"
@@ -141,7 +170,7 @@ function JuleKalenderen() {
       <div className="md:hidden grid grid-cols-2 h-4 w-full">
         <div className="border-r-4 border-black"></div>
       </div>
-      <div className="relative flex justify-center ">
+      <div className="relative flex justify-center mt-5 ">
         <Image
           className="hidden md:flex 2xl:hidden border-4 border-black "
           src={require("@/assets/tree.jpg")}

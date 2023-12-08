@@ -101,7 +101,8 @@ export const beerCalenderData: any = [
     navn: "Pulp DIPA",
     land: "UK",
     Alkohol: "8",
-    brødtekst: "tom",
+    brødtekst:
+      "Der er vist et mønster. Vi skal til UK for at hente god humle år efter år. Og de af jer der har været med flere år ved at vi elsker Verdant. Et bryggeri der var super ekslusivt i DK for nogle år tilbage, men som nu er mere tilgængeligt. Og det er vi glade for! Det er DIPA-tid igen. Og i dag kan I forvente en mere bastant, tropisk og bitter sag. VERDANT ❤️",
     untappdlink: "https://untappd.com/b/verdant-brewing-co-pulp/1686557",
     dato: "09",
   },
@@ -110,7 +111,8 @@ export const beerCalenderData: any = [
     navn: "Haze From The Crypt IPA",
     land: "DE",
     Alkohol: "6,3",
-    brødtekst: "tom",
+    brødtekst:
+      "Vi skal prøve noget nyt og vildt i dag. Vi skal have humle fra Tyskland. Sudden Death kan godt lide gysere og så kan de godt lide sprød IPA. Sammen med Fuerst Wiacek står de for noget af det bedste IPA fra Tyskland. I dag får i humle fra krypten og hvis vi kender SD så er den tungt tørhumlet og sådan en IPA der er kvart i DIPA",
     untappdlink:
       "https://untappd.com/b/sudden-death-brewing-co-haze-from-the-crypt-2023/5560856",
     dato: "10",
@@ -120,7 +122,8 @@ export const beerCalenderData: any = [
     navn: "Vault Dweller",
     land: "USA",
     Alkohol: "4,3",
-    brødtekst: "tom",
+    brødtekst:
+      "Vault laver en vanvittig bred palette af sours fra Skotland. De er i høj grad til at komme til for penge og plejer at holde niveau. Dette er årets LOL-øl. For farven… den kan I glæde jer til. Forvent en voldsomt sur øl, hevet direkte op fra Edinburghs kloaksystemer. Skål i kloak! ",
     untappdlink:
       "https://untappd.com/b/vault-city-brewing-vault-dweller/5559673",
     dato: "11",

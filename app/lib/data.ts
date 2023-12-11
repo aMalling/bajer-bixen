@@ -133,7 +133,8 @@ export const beerCalenderData: any = [
     navn: "Double Cheese",
     land: "UK",
     Alkohol: "8,4",
-    brødtekst: "tom",
+    brødtekst:
+      "Vi skal selvfølgelig til UK igen for at hente humlevæske. Left Handed Giants’ klassiker, Cheeseburger Cavalry, er her nået sit næste udviklingsstadie. Øllen er en del af en hyldest til CC hvor de har brygget øllen i tre forskellige udgaver: pale ale, original og DIPA. Dagens øl markerer også halvvejen for årets øljulekalenderrejse… Er I klar til den længste slutspurt nogensinde?",
     untappdlink:
       "https://untappd.com/b/left-handed-giant-double-cheese/5560960",
     dato: "12",
@@ -143,7 +144,8 @@ export const beerCalenderData: any = [
     navn: "Southern Sun PALE ALE",
     land: "UK",
     Alkohol: "5,4",
-    brødtekst: "tom",
+    brødtekst:
+      "Hey? Vidste I godt at de laver en del god pale ale, IPA og DIPA i UK? Ok, klart… det vidste I godt. Men vidste I så også godt at Track er et af de bryggerier vi holder vældig meget af i denne kategori? Nårh, ok… så det vidste I også godt. Men vidste I så også godt at dele af øljulekalender teamet bliver tiltagende glad for pale ales fordi han synes det giver mere plads til at humleprofilen står skarpt frem?  NÆH! Det vidste I da sikkert ikke. I dag skal vi ned i procenter og I får en pale ale fra humletrykkekunstnerne fra Track. De lave procenter skulle give jer mulighed for bedre at smage hvad den nye humle, Superdelic, kan sammen med Citra, Citra Cryo og Mosaic.",
     untappdlink:
       "https://untappd.com/b/track-brewing-company-southern-sun/5541236",
     dato: "13",
@@ -153,7 +155,8 @@ export const beerCalenderData: any = [
     navn: "Backyard Brawl",
     land: "USA",
     Alkohol: "13,1",
-    brødtekst: "tom",
+    brødtekst:
+      "Sidste år øljulekalendermodtagere stiftede bekendtskab med amerikanske Short Throw Brewing Co. i form af en kettle sour med mango og abrikos. I år skal vi til et helt andet sted med STBC. En double pastry stout der har lagret med Vermont ahorn sirup, skumfiduser, ristet kokos, kanel og kaffebønner. En klog mand sagde en dag: de bedste stouts i verden har lidt kanel i sig… nogle af de værste stouts i verden har lidt kanel i sig. Vi håber at denne her rammer the sweet spot med sødme, bitterhed, kokos og kanelkrydder. ",
     untappdlink:
       "https://untappd.com/b/short-throw-brewing-co-backyard-brawl/4950555",
     dato: "14",
@@ -163,7 +166,8 @@ export const beerCalenderData: any = [
     navn: "Dust Devil DIPA",
     land: "NOR",
     Alkohol: "8",
-    brødtekst: "tom",
+    brødtekst:
+      "En julebekendelse: beskrivelserne af øllene er ikke alle lavet før december. Ofte laves de løbende. Dagens er ingen undtagelse. Det har haft den betydning at forfatteren af denne tekst ved at den første Salikatt-øl, Killdozer, gik rent ind hos mange. Salikatts humlegame er så latterligt stærkt og det var en no-brainer at hive endnu en DIPA fra norge ind i årets lineup. Så værsgo’ til jer - from Norway with love. Endnu en formentlig voldsomt velafbalanceret DIPA! ",
     untappdlink: "https://untappd.com/b/salikatt-dust-devil/5523659",
     dato: "15",
   },
@@ -183,7 +187,8 @@ export const beerCalenderData: any = [
     navn: "Always On My Mind PALE ALE",
     land: "UK",
     Alkohol: "5",
-    brødtekst: "tom",
+    brødtekst:
+      " I dag får I mere af det samme… og så med et lille twist. For ved første øjekast kunne man tænke “jamen… jeg har da allerede fået en pale ale fra Track… og den var det godt. Men skal jeg virkelig have endnu en?”. Og svaret er “Ja, det skal du, men var der måske lige den helt nye humle, Kohia Nelson, i den?”. NEJ! Det var der ikke. Og her kommer der lige lidt historie til nørderne. Freestyle Hops, som hører til i New Zealand, prøver alt muligt af. Her har de lavet humlepiller der er en blanding af Nelson Sauvin og Rakau-humle. Så har de fået fat i en masse passionsfrugter fra NZ, tørret dem, fjerne frø og så blandet dem med humlerne inden de er lavet til humlepiller til ølbrygning. Vi er meget spændt på dette eksperiment og glæder os til at høre hvad I siger til det. ",
     untappdlink:
       "https://untappd.com/b/track-brewing-company-always-on-my-mind/5550312",
     dato: "17",
@@ -204,7 +209,8 @@ export const beerCalenderData: any = [
     navn: "Neon Colour Spreading IPA",
     land: "UK",
     Alkohol: "6,5",
-    brødtekst: "tom",
+    brødtekst:
+      "Verdant, Verdant, Verdant. Ja, ja, ja. Der har efterhånden været mange øl fra Verdant i kalenderen igennem årene, men vi er lige stoked hver gang vi skal servere det for jer. Der er svært at sige mere om Verdant eller om IPA, så lad os i stedet dykke ned i humlerne. Nectaron® er udviklet af firmaet NZ Hops og har taget 17 år at opdyrke. Den er ny, den er hypet og den skulle ananas, passionsfrugt og stenfrugter. Ved siden af Nectaron® suppleres der op med Idaho7 og Citra. Forvent en yderst frugtet IPA i den tropiske ende af frugtskalaen.",
     untappdlink:
       "https://untappd.com/b/verdant-brewing-co-neon-colour-spreading/5158780",
     dato: "19",
@@ -214,7 +220,8 @@ export const beerCalenderData: any = [
     navn: "Neal Gets Things Done IPA",
     land: "UK",
     Alkohol: "6,5",
-    brødtekst: "tom",
+    brødtekst:
+      "WHAT? SKER DER? Troede I lige at man da kunne regne med at man ikke får øl fra samme bryggeri to dage i streg? Og hvis man gør, så kan man da ikke få samme ølstil to dage i streg? Think again! Intet er sikkert i øljulekalendere og humlebussen fra Verdant kører igen en IPA ud til folket. En juicy blanding af humleklassikerne Simcoe, Citra, Mosaic og Nelson Sauvin. ",
     untappdlink:
       "https://untappd.com/b/verdant-brewing-co-neal-gets-things-done/2183923",
     dato: "20",

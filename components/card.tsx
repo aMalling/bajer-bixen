@@ -8,7 +8,7 @@ function MyCard({ calenderDate }) {
 
   return (
     <div>
-      {new Date(`2023-12-${beerInfo.dato}`) <= new Date() ? (
+      {new Date(`2024-12-${beerInfo.dato}`) <= new Date() ? (
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

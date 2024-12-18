@@ -159,7 +159,7 @@ function JuleKalenderen() {
 
   return (
     <main>
-      <div className="md:hidden flex flex-col justify-center items-center mt-10">
+      <div className="md:hidden flex flex-col justify-center items-center md:mt-10">
         <Image
           className=""
           src={require("@/assets/flame.png")}

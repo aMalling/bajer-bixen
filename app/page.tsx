@@ -159,7 +159,7 @@ function JuleKalenderen() {
 
   return (
     <main>
-      <div className="md:hidden flex flex-col justify-center items-center md:mt-10">
+      <div className="md:hidden flex flex-col justify-center items-center mt-10">
         <Image
           className=""
           src={require("@/assets/flame.png")}
@@ -170,7 +170,7 @@ function JuleKalenderen() {
       <div className="md:hidden grid grid-cols-2 h-4 w-full">
         <div className="border-r-4 border-black"></div>
       </div>
-      <div className="relative flex justify-center mt-5 ">
+      <div className="relative flex justify-center md:mt-5 ">
         <Image
           className="hidden md:flex 2xl:hidden border-4 border-black "
           src={require("@/assets/tree.jpg")}

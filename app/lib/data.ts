@@ -127,5 +127,104 @@ export const beerCalenderData: any = [
       "brødtekst": "",
       "untappdlink": "https://untappd.com/b/brasserie-cantillon-gueuze-100-lambic-bio/56829",
       "dato": "13"
+  },
+  {
+    "bryggeri": "Brasserie Cantillon",
+    "navn": "Gueuze 100% Lambic Bio",
+    "land": "Belgien",
+    "Alkohol": "5%",
+    "brødtekst": "",
+    "untappdlink": "https://untappd.com/b/brasserie-cantillon-gueuze-100-lambic-bio/56829",
+    "dato": "14"
+  },  
+  {
+  "bryggeri": "Brasserie Cantillon",
+  "navn": "Gueuze 100% Lambic Bio",
+  "land": "Belgien",
+  "Alkohol": "5%",
+  "brødtekst": "",
+  "untappdlink": "https://untappd.com/b/brasserie-cantillon-gueuze-100-lambic-bio/56829",
+  "dato": "15"
+  },
+  {
+    "bryggeri": "Brasserie Cantillon",
+    "navn": "Gueuze 100% Lambic Bio",
+    "land": "Belgien",
+    "Alkohol": "5%",
+    "brødtekst": "",
+    "untappdlink": "https://untappd.com/b/brasserie-cantillon-gueuze-100-lambic-bio/56829",
+    "dato": "16"
+  },
+  {
+    "bryggeri": "Brasserie Cantillon",
+    "navn": "Gueuze 100% Lambic Bio",
+    "land": "Belgien",
+    "Alkohol": "5%",
+    "brødtekst": "",
+    "untappdlink": "https://untappd.com/b/brasserie-cantillon-gueuze-100-lambic-bio/56829",
+    "dato": "17"
+  },  
+  {
+  "bryggeri": "Brasserie Cantillon",
+  "navn": "Gueuze 100% Lambic Bio",
+  "land": "Belgien",
+  "Alkohol": "5%",
+  "brødtekst": "",
+  "untappdlink": "https://untappd.com/b/brasserie-cantillon-gueuze-100-lambic-bio/56829",
+  "dato": "18"
+  },
+  {
+    "bryggeri": "Brasserie Cantillon",
+    "navn": "Gueuze 100% Lambic Bio",
+    "land": "Belgien",
+    "Alkohol": "5%",
+    "brødtekst": "",
+    "untappdlink": "https://untappd.com/b/brasserie-cantillon-gueuze-100-lambic-bio/56829",
+    "dato": "19"
+  },
+  {
+    "bryggeri": "Brasserie Cantillon",
+    "navn": "Gueuze 100% Lambic Bio",
+    "land": "Belgien",
+    "Alkohol": "5%",
+    "brødtekst": "",
+    "untappdlink": "https://untappd.com/b/brasserie-cantillon-gueuze-100-lambic-bio/56829",
+    "dato": "20"
+  },  
+  {
+  "bryggeri": "Brasserie Cantillon",
+  "navn": "Gueuze 100% Lambic Bio",
+  "land": "Belgien",
+  "Alkohol": "5%",
+  "brødtekst": "",
+  "untappdlink": "https://untappd.com/b/brasserie-cantillon-gueuze-100-lambic-bio/56829",
+  "dato": "21"
+  },
+  {
+    "bryggeri": "Brasserie Cantillon",
+    "navn": "Gueuze 100% Lambic Bio",
+    "land": "Belgien",
+    "Alkohol": "5%",
+    "brødtekst": "",
+    "untappdlink": "https://untappd.com/b/brasserie-cantillon-gueuze-100-lambic-bio/56829",
+    "dato": "22"
+  },
+  {
+    "bryggeri": "Brasserie Cantillon",
+    "navn": "Gueuze 100% Lambic Bio",
+    "land": "Belgien",
+    "Alkohol": "5%",
+    "brødtekst": "",
+    "untappdlink": "https://untappd.com/b/brasserie-cantillon-gueuze-100-lambic-bio/56829",
+    "dato": "23"
+  },  
+  {
+  "bryggeri": "Brasserie Cantillon",
+  "navn": "Gueuze 100% Lambic Bio",
+  "land": "Belgien",
+  "Alkohol": "5%",
+  "brødtekst": "",
+  "untappdlink": "https://untappd.com/b/brasserie-cantillon-gueuze-100-lambic-bio/56829",
+  "dato": "24"
   }
 ] as const;

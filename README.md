@@ -1,3 +1,3 @@
-## Øljuleklaenderen 2024
+## Øljuleklaenderen 2025
 
 ## Byens Bedste boomers

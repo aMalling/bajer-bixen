@@ -8,7 +8,7 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ØLJULEKALENDEREN 2024",
+  title: "ØLJULEKALENDEREN 2025",
   description: "Byens Bedste Boomers",
 };
 

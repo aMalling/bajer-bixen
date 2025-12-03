@@ -13,7 +13,7 @@ interface BeerCalenderDataInterface {
 export const beerCalenderData: any = [
   {
     Bryggeri: "Other Half",
-    Navn: "Ticker Shock",
+    navn: "Ticker Shock",
     land: "USA",
     Alkohol: "8,5",
     brødtekst:
@@ -24,7 +24,7 @@ export const beerCalenderData: any = [
   },
   {
     Bryggeri: "Põhjala",
-    Navn: "More Than Amber",
+    navn: "More Than Amber",
     land: "Estland",
     Alkohol: 13,
     brødtekst:
@@ -35,7 +35,7 @@ export const beerCalenderData: any = [
   },
   {
     Bryggeri: "Arpus x Blood Brothers",
-    Navn: "TDH Peacharine X Taiheke X Riwaka IPA",
+    navn: "TDH Peacharine X Taiheke X Riwaka IPA",
     land: "Letland/Canada",
     Alkohol: "6,5",
     brødtekst:
@@ -46,7 +46,7 @@ export const beerCalenderData: any = [
   },
   {
     Bryggeri: "Observatoriet",
-    Navn: "Luminosa Oak Juice",
+    navn: "Luminosa Oak Juice",
     land: "Danmark",
     Alkohol: "6,5",
     brødtekst:
@@ -57,7 +57,7 @@ export const beerCalenderData: any = [
   },
   {
     Bryggeri: "Other Half",
-    Navn: "Green Dots",
+    navn: "Green Dots",
     land: "USA",
     Alkohol: "6,8",
     brødtekst:
@@ -68,7 +68,7 @@ export const beerCalenderData: any = [
   },
   {
     Bryggeri: "Timber Ales",
-    Navn: "Vanilla Lumberjack Style",
+    navn: "Vanilla Lumberjack Style",
     land: "USA",
     Alkohol: 12,
     brødtekst:
@@ -79,7 +79,7 @@ export const beerCalenderData: any = [
   },
   {
     Bryggeri: "Verdant",
-    Navn: "It’s Cliched to be Cynical at Christmas",
+    navn: "It’s Cliched to be Cynical at Christmas",
     land: "England",
     Alkohol: "6,5",
     brødtekst:
@@ -90,7 +90,7 @@ export const beerCalenderData: any = [
   },
   {
     Bryggeri: "De La Senne",
-    Navn: "Taras Boulba",
+    navn: "Taras Boulba",
     land: "Belgien",
     Alkohol: "4,5",
     brødtekst:
@@ -101,7 +101,7 @@ export const beerCalenderData: any = [
   },
   {
     Bryggeri: "Ārpus X Outer Range Brewing Co",
-    Navn: "Watermelon X Mint X Lime Smoothie Sour Ale",
+    navn: "Watermelon X Mint X Lime Smoothie Sour Ale",
     land: "Letland/USA",
     Alkohol: "4,5",
     brødtekst:
@@ -112,7 +112,7 @@ export const beerCalenderData: any = [
   },
   {
     Bryggeri: "Evil Twin NYC",
-    Navn: "The Great Nothern #49",
+    navn: "The Great Nothern #49",
     land: "USA",
     Alkohol: "12,8",
     brødtekst:
@@ -123,7 +123,7 @@ export const beerCalenderData: any = [
   },
   {
     Bryggeri: "Bad Seed",
-    Navn: "Super Fuzz",
+    navn: "Super Fuzz",
     land: "Danmark",
     Alkohol: 8,
     brødtekst:

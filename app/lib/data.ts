@@ -12,7 +12,7 @@ interface BeerCalenderDataInterface {
 
 export const beerCalenderData: any = [
   {
-    Bryggeri: "Other Half",
+    bryggeri: "Other Half",
     navn: "Ticker Shock",
     land: "USA",
     Alkohol: "8,5",
@@ -23,7 +23,7 @@ export const beerCalenderData: any = [
     dato: "01",
   },
   {
-    Bryggeri: "Põhjala",
+    bryggeri: "Põhjala",
     navn: "More Than Amber",
     land: "Estland",
     Alkohol: 13,
@@ -34,7 +34,7 @@ export const beerCalenderData: any = [
     dato: "02",
   },
   {
-    Bryggeri: "Arpus x Blood Brothers",
+    bryggeri: "Arpus x Blood Brothers",
     navn: "TDH Peacharine X Taiheke X Riwaka IPA",
     land: "Letland/Canada",
     Alkohol: "6,5",
@@ -45,7 +45,7 @@ export const beerCalenderData: any = [
     dato: "03",
   },
   {
-    Bryggeri: "Observatoriet",
+    bryggeri: "Observatoriet",
     navn: "Luminosa Oak Juice",
     land: "Danmark",
     Alkohol: "6,5",
@@ -56,7 +56,7 @@ export const beerCalenderData: any = [
     dato: "04",
   },
   {
-    Bryggeri: "Other Half",
+    bryggeri: "Other Half",
     navn: "Green Dots",
     land: "USA",
     Alkohol: "6,8",
@@ -67,7 +67,7 @@ export const beerCalenderData: any = [
     dato: "05",
   },
   {
-    Bryggeri: "Timber Ales",
+    bryggeri: "Timber Ales",
     navn: "Vanilla Lumberjack Style",
     land: "USA",
     Alkohol: 12,
@@ -78,7 +78,7 @@ export const beerCalenderData: any = [
     dato: "06",
   },
   {
-    Bryggeri: "Verdant",
+    bryggeri: "Verdant",
     navn: "It’s Cliched to be Cynical at Christmas",
     land: "England",
     Alkohol: "6,5",
@@ -89,7 +89,7 @@ export const beerCalenderData: any = [
     dato: "07",
   },
   {
-    Bryggeri: "De La Senne",
+    bryggeri: "De La Senne",
     navn: "Taras Boulba",
     land: "Belgien",
     Alkohol: "4,5",
@@ -100,7 +100,7 @@ export const beerCalenderData: any = [
     dato: "08",
   },
   {
-    Bryggeri: "Ārpus X Outer Range Brewing Co",
+    bryggeri: "Ārpus X Outer Range Brewing Co",
     navn: "Watermelon X Mint X Lime Smoothie Sour Ale",
     land: "Letland/USA",
     Alkohol: "4,5",
@@ -111,7 +111,7 @@ export const beerCalenderData: any = [
     dato: "09",
   },
   {
-    Bryggeri: "Evil Twin NYC",
+    bryggeri: "Evil Twin NYC",
     navn: "The Great Nothern #49",
     land: "USA",
     Alkohol: "12,8",
@@ -122,7 +122,7 @@ export const beerCalenderData: any = [
     dato: 10,
   },
   {
-    Bryggeri: "Bad Seed",
+    bryggeri: "Bad Seed",
     navn: "Super Fuzz",
     land: "Danmark",
     Alkohol: 8,

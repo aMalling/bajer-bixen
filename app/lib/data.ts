@@ -238,4 +238,33 @@ export const beerCalenderData: any = [
       "https://untappd.com/b/timber-ales-blended-with-lumber-6/6098571",
     dato: 21,
   },
+  {
+    bryggeri: "Verdant",
+    navn: "Touch Grass",
+    land: "England",
+    Alkohol: "8",
+    brødtekst: "x",
+    untappdlink: "https://untappd.com/b/verdant-brewing-co-touch-grass/6440563",
+    dato: "22",
+  },
+  {
+    bryggeri: "Holy Goat",
+    navn: "Spectral Lore 2024",
+    land: "Skotland",
+    Alkohol: "5,9",
+    brødtekst: "x",
+    untappdlink:
+      "https://untappd.com/b/holy-goat-brewing-spectral-lore-2024/6089379",
+    dato: "23",
+  },
+  {
+    bryggeri: "Goose Island Beer Co.",
+    navn: "Bourbon Country Brand Stout (2020)",
+    land: "USA",
+    Alkohol: "14,6",
+    brødtekst: "x",
+    untappdlink:
+      "https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-stout-2020-14-6/3993507",
+    dato: "24",
+  },
 ] as const;

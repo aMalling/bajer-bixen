@@ -137,7 +137,7 @@ export const beerCalenderData: any = [
     land: "USA",
     Alkohol: 13,
     brødtekst:
-      "I dag byder vi hjerteligt velkommen til et nyt ØJ-bryggeri: amerikanske Fat Orange Cat\nFOC laver både humle, surt og sort og vi var så heldige at få lov til at købe ind da der kom en sendig til DK tidligt på året. Roll Me One... er en stout-serie med forskellige adjunctsammensætninger. Intet fadlagret, bare god gammeldaws stuuuut med chokolade, kaffe og karamel. Vi forventer noget i retningen af en dessertstout med more is more-viben kørende for sig. \nSkål for tyk orange kat! ",
+      "I dag byder vi hjerteligt velkommen til et nyt ØJ-bryggeri: amerikanske Fat Orange Cat\nFOC laver både humle, surt og sort og vi var så heldige at få lov til at købe ind da der kom en sendig til DK tidligt på året. Roll Me One... er en stout-serie med forskellige adjunctsammensætninger. Intet fadlagret, bare god gammeldaws stuuuut med chokolade, kaffe og karamel. Vi forventer noget i retningen af en dessertstout med more is more-viben kørende for sig. \nUngerne får fredagsslik. Og det gør du også. For det fortjener du. For du har været godt på arbejdet i denne uge. Og du har været sød ved folk omkring dig. Og nu skal du være sød ved dig selv. ",
     untappdlink:
       "https://untappd.com/b/fat-orange-cat-brew-co-roll-me-one-of-those-cowboy-with-chocolate-caramel-and-coffee/6086000",
     dato: 12,
@@ -148,7 +148,7 @@ export const beerCalenderData: any = [
     land: "Tyskland",
     Alkohol: 8,
     brødtekst:
-      "I dag skal vi have en af de der øl der ikke er så meget nyt at sige om. DIPA? Det kender i. Måske I skal se noget PL-bold, NFL eller andet sportsguf. Passer perfekt til. Og tyske Fuerst Wiacek laver sædvanligvis snorlige IPA/DIPA og der er absolut ingen grund til at forvente anden end en hamrende lækker DIPA til din søndag aften",
+      "I dag skal vi have en af de der øl der ikke er så meget nyt at sige om. DIPA? Det kender i. Måske I skal se noget PL-bold, skiskydning eller andet sportsguf. Passer perfekt til. Og tyske Fuerst Wiacek laver sædvanligvis snorlige IPA/DIPA og der er absolut ingen grund til at forvente anden end en hamrende lækker DIPA til din lørdag aften",
     untappdlink:
       "https://untappd.com/b/fuerst-wiacek-berlin-hotline-2025/6430164",
     dato: 13,
@@ -159,7 +159,7 @@ export const beerCalenderData: any = [
     land: "USA",
     Alkohol: "7,2",
     brødtekst:
-      "Og så troede I nok at forkælelserne med Other Half måtte stoppe. Men nej. ØJ vil jer kun det bedste og endnu en OH-øl skal I da have. Kommer der mon flere fra OH? Ingen ved det... eller... vi ved det. Men ved I det? Det gør I kun hvis I har snydt foran. Og det har I måske... eller måske ikke. Men i dag skal I bare nyde denne luksusøl og vide at I formentlig lige har taget hul på sidste uge inden juleferien. Er det må da føles godt, AMIRITE? ",
+      "Og så troede I nok at forkælelserne med Other Half måtte stoppe. Men nej. ØJ vil jer kun det bedste og endnu en OH-øl skal I da have. Kommer der mon flere fra OH? Ingen ved det... eller... vi ved det. Men ved I det? Det gør I kun hvis I har snydt foran. Og det har I måske... eller måske ikke. Men i dag skal I bare nyde denne luksusøl og nyde 3. Søndag i advent. ",
     untappdlink: "https://untappd.com/b/other-half-brewing-co-dank-ivy/4368954",
     dato: 14,
   },
@@ -169,7 +169,7 @@ export const beerCalenderData: any = [
     land: "USA",
     Alkohol: 4,
     brødtekst:
-      "Westbrook har lavet en legendarisk gose - og det er denne. Vi har tidligere fået en variant med agurk og den var lidt meget a-gurk i det. Men denne her fuldstændig plain gose fra Westbrook skuffer simpelthen bare aldrig. Det er en satans god øl med lige præcis den salt og koriander i som der nu skal være i, når man vil lave en klassisk gose. Ingen frugt. Ikke dikkedarer. Bare en sur/salt øl til at klare den sur-salte tirsdag du har gang i. \nP.s. Deres limeudgave af gosen er VIRKELIG fræk også!",
+      "Westbrook har lavet en legendarisk gose - og det er denne. Vi har tidligere fået en variant med agurk og den var lidt meget a-gurk i det. Men denne her fuldstændig plain gose fra Westbrook skuffer simpelthen bare aldrig. Det er en satans god øl med lige præcis den salt og koriander i som der nu skal være i, når man vil lave en klassisk gose. Ingen frugt. Ikke dikkedarer. Bare en sur/salt øl til at klare den sur-salte start på ugen du har gang i. \nP.s. Deres limeudgave af gosen er VIRKELIG fræk også!",
     untappdlink: "https://untappd.com/b/westbrook-brewing-co-gose/155824",
     dato: 15,
   },
@@ -183,5 +183,59 @@ export const beerCalenderData: any = [
     untappdlink:
       "https://untappd.com/b/arpus-brewing-co-arpus-x-messorem-tdh-superdelic-x-nectaron-x-motueka-x-citra-dipa/6447588",
     dato: 16,
+  },
+  {
+    bryggeri: "Cantillon",
+    navn: "Gueuze 100% Lambic Bio",
+    land: "Belgien",
+    Alkohol: 5,
+    brødtekst:
+      "Hvis man har flere år på bagen som del af ØJ-fællesskabet, så ved man også at vi ynder at have en gueuze med fra et af vores to yndlingslambikbryggerier - 3 Fonteinen eller Cantillon. I år er turen kommet til Cantillons gueuze. \nFor de uindivede er der her tale om spontangæret belgisk ale, som efterfølgende har haft tid på træfade. På et tidspunkt render deres brygmester rundt og sampler smagsprøver fra tønderne og beslutter derefter hvordan han vil blande forskellige tønder af 1, 2 og 3 år gammel lambik. Efterfølgende fermenterer det videre på flasker - også her det får sin karbonering. \nCantillons gueuze er typisk lidt mindre karboneret end andre gueuzer og har sin helt egen karakterfulde smag - man er sjældent i tvivl om at det er Cantillon-gueuze man har fået ind i svælget. \nHyg jer med lidt sur julestemning!",
+    untappdlink:
+      "https://untappd.com/b/brasserie-cantillon-gueuze-100-lambic-bio/56829",
+    dato: 17,
+  },
+  {
+    bryggeri: "Left Handed Giant ",
+    navn: "Kiwi Auru '25; Gaston Hops",
+    land: "England",
+    Alkohol: "6,5",
+    brødtekst:
+      "IT'S CHUG A BEER TIME!\nFra den venstrehåndede, engelske gigant skal vi have en frisk NEIPA brygget på New Zealandsk humle. Humle dyrket på regenrativ vis af Garson Hops. Værd at nævne at Left Handed Giant er første eupæriske bryggeri der bruger Garsons humle. Forvent fersken, hvide druer og candy floss (det står der i hvert fald på Untappd). \nHvis du er én af de heldige asier der går på ferie i dag, så er det vel også en yderst passende måde lige at fejre sin juleferies komme på!?",
+    untappdlink:
+      "https://untappd.com/b/left-handed-giant-kiwi-aura-25-garston-hops/6441752",
+    dato: 18,
+  },
+  {
+    bryggeri: "Omnipollo x Angry Chair",
+    navn: "Safari Barrel Aged Vegan Quadruple Stack Stout",
+    land: "Sverige/USA",
+    Alkohol: 13,
+    brødtekst:
+      "Vi skal have fat i dessertstoutens ophavsfolk - Omnipollo. De præsenterede verden for AON Pecan Mud Pie (som nu hedder NOA Pecan Mud Pie) og siden da har de ikke set sig tilbage. De har spyttet den ene vulgære og fuldstændig overdrevne more-is-more-stout ud. Haters vil mene at det er cheap tricks med alle de adjuncts (tilsætningssmage) de fyrer op under. Andre elsker bare en god, tyk stout der smager af al mulig lækker dessertværk. \nAngry Chair absolut high end bryggeri som har lavet nogle VILDE stouts i tidens løb. Vi må se hvad der sker når Omnipollo teamer up med Angry Chair - og hvad der gammer sig bag denne fadlagede sag. Kan man mon smage at den er vegansk? Hvor meget smager den af sojagranulat og havredrik? Hvor meget smager den af tiger og giraf? Og hvor meget smager den af fad? \nAlt dette og mere mere finder du af, når du åbner dagens øl og tager din første tår. ",
+    untappdlink:
+      "https://untappd.com/b/omnipollo-safari-barrel-aged-vegan-quadruple-stack-stout/6350845",
+    dato: 19,
+  },
+  {
+    bryggeri: "Verdant",
+    navn: "Allen",
+    land: "England",
+    Alkohol: 8,
+    brødtekst:
+      "Nu fedter vi altså for jer... har I virkelig fortjent endnu en Verdant-øl? Selvfølgelig har I det. \nAllen er en fuldvoksen DIPA. En øl de har brygget i en del år og som i sin status snuser en smule til den storhed der omkranser deres legendariske øl, Putty. Allen er en gedigen øl fra deres core range og vist faktisk en af de første øl de for alvor slog igennem på. Forvent tonsvis af humle, fylde og dybde i denne DIPA.",
+    untappdlink: "https://untappd.com/b/verdant-brewing-co-allen/2442147",
+    dato: 20,
+  },
+  {
+    bryggeri: "Timber Ales",
+    navn: "Blended With Lumber #6",
+    land: "USA",
+    Alkohol: "13,4",
+    brødtekst:
+      "For anden gang i år står den på mørke dråber fra amerkianske Timber Ales. Og for anden gang i ØJ-historien skal vi have Blended With Lumber. De laver denne øl et par gange årligt og vi er altså nu nået til #6 (#7 ramte lige gaderne inden julekalenderen kom i jeres hænder). \nVi og I var fuldstændig vilde med BWL og vi håber da at successen gentager sig. Der er tale om et blend af 1/3 stout der har ligget 26-30 måneder på Willet bourbon fade og 2/3 frisk stout. Det hele har til sidst ligget og fermenteret med ristet kokos og kaffe. Hvis du har åbnet den låge tidligt på dagen, så tænker vi at det bliver svært at vente til senere i dag med at drikke en øl med disse specs. Fad, kokos, kaffe. Arrrrhmen altså... en lille tår af himlens skøhed!",
+    untappdlink:
+      "https://untappd.com/b/timber-ales-blended-with-lumber-6/6098571",
+    dato: 21,
   },
 ] as const;

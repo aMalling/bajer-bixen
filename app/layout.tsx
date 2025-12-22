@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import MyNavBar from "@/components/navbar";
 import MyFooter from "@/components/footer";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
@@ -20,7 +19,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-bajer-base">
-        <MyNavBar />
         {children}
         <Analytics />
         <MyFooter />

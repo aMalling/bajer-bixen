@@ -26,7 +26,7 @@ export const beerCalenderData: any = [
     bryggeri: "Põhjala",
     navn: "More Than Amber",
     land: "Estland",
-    Alkohol: 13,
+    Alkohol: "13",
     brødtekst:
       "En gammel estisk kending, vi har flere gange før haft besøg fra Põhjala i ØJ og det har vi fordi vi synes de laver nogle nice øl. Især deres mørke sager kan noget og de tidligere øl har ligesom den her, været fra deres Celler Series - en serie vi elsker og som har høj kvalitet uden du behøver at tømme hele sparegrisen. \nDagens låge er faktisk en porter, og nej vi gider ikke forklare forskellen på en porter og en stout. Øllet har hygget sig 2 år på cognacfade, hvilket giver en anderledes tilføjelse, end de bourbonfade som man måske er vant til. Vi håber i har tid til at hygge om den her fætter, måske med julekalender eller PL som en lækker sidevogn.",
     untappdlink:
@@ -70,7 +70,7 @@ export const beerCalenderData: any = [
     bryggeri: "Timber Ales",
     navn: "Vanilla Lumberjack Style",
     land: "USA",
-    Alkohol: 12,
+    Alkohol: "12",
     brødtekst:
       'Vi bliver i USA, men skifter den lyse humlevæske ud med en omgang mørke, gyldne dråber fra Timbers Ales. \nVi har tre gange tidligere haft stouts med fra Timber Ales og særligt ""Chasing Darkness"" og ""Blended With Lumber #3"" vakte stor glæde blandt det drikkende folk. Vi greb straks muligheden da vi igen fik mulighed for at stacke op på en omgang Timber Ales stout. Her får I en mørk basse der har hygget sig med vaniljekorn og ahornsirup. Den har IKKE ligget på fade, men hvis man lige husker tilbage på ""Chasing Darkness"", så husker man måske en KÆMPE øl der ikke havde været på fade. Vi tror på det samme her! ',
     untappdlink:
@@ -125,7 +125,7 @@ export const beerCalenderData: any = [
     bryggeri: "Bad Seed",
     navn: "Super Fuzz",
     land: "Danmark",
-    Alkohol: 8,
+    Alkohol: "8",
     brødtekst:
       "Fra halvdansk til heldansk. Fra mørkeland til humleland. \nSpørger man os, så er Bad Seed er et af de mest spændende danske bryggerier for tiden. De laver knivskarpe west coast IPA'er, laver moderne west coast IPA'er som både har det tørhumlede og det bitre, de laver virkelig gode stouts (til virkelig gode penge!) og så har de også fået gang i at lave de tørhumlede og tågede new england IPA'er. \nI det skal vi have en DIPA fra deres hånd og I kan forvente (og vi håber på) en PIVFRISK og lys DIPA med kæmpe meget smæk på humlen. Forvent tropiske frugter, stenfrugt og citrus. \nUngerne får fredagsslik. Og det gør du også. For det fortjener du. For du har været godt på arbejdet i denne uge. Og du har været sød ved folk omkring dig. Og nu skal du være sød ved dig selv. ",
     untappdlink: "https://untappd.com/b/bad-seed-brewing-super-fuzz/6425151",
@@ -135,7 +135,7 @@ export const beerCalenderData: any = [
     bryggeri: "Fat Orange Cat",
     navn: "Roll Me One Of Those Cowboy with Chocolate, Coffee & Caramel",
     land: "USA",
-    Alkohol: 13,
+    Alkohol: "13",
     brødtekst:
       "I dag byder vi hjerteligt velkommen til et nyt ØJ-bryggeri: amerikanske Fat Orange Cat\nFOC laver både humle, surt og sort og vi var så heldige at få lov til at købe ind da der kom en sendig til DK tidligt på året. Roll Me One... er en stout-serie med forskellige adjunctsammensætninger. Intet fadlagret, bare god gammeldaws stuuuut med chokolade, kaffe og karamel. Vi forventer noget i retningen af en dessertstout med more is more-viben kørende for sig. \nUngerne får fredagsslik. Og det gør du også. For det fortjener du. For du har været godt på arbejdet i denne uge. Og du har været sød ved folk omkring dig. Og nu skal du være sød ved dig selv. ",
     untappdlink:
@@ -146,7 +146,7 @@ export const beerCalenderData: any = [
     bryggeri: "Fuerst Wiacek ",
     navn: "Hotline ",
     land: "Tyskland",
-    Alkohol: 8,
+    Alkohol: "8",
     brødtekst:
       "I dag skal vi have en af de der øl der ikke er så meget nyt at sige om. DIPA? Det kender i. Måske I skal se noget PL-bold, skiskydning eller andet sportsguf. Passer perfekt til. Og tyske Fuerst Wiacek laver sædvanligvis snorlige IPA/DIPA og der er absolut ingen grund til at forvente anden end en hamrende lækker DIPA til din lørdag aften",
     untappdlink:
@@ -167,7 +167,7 @@ export const beerCalenderData: any = [
     bryggeri: "Westbrook",
     navn: "Gose",
     land: "USA",
-    Alkohol: 4,
+    Alkohol: "4",
     brødtekst:
       "Westbrook har lavet en legendarisk gose - og det er denne. Vi har tidligere fået en variant med agurk og den var lidt meget a-gurk i det. Men denne her fuldstændig plain gose fra Westbrook skuffer simpelthen bare aldrig. Det er en satans god øl med lige præcis den salt og koriander i som der nu skal være i, når man vil lave en klassisk gose. Ingen frugt. Ikke dikkedarer. Bare en sur/salt øl til at klare den sur-salte start på ugen du har gang i. \nP.s. Deres limeudgave af gosen er VIRKELIG fræk også!",
     untappdlink: "https://untappd.com/b/westbrook-brewing-co-gose/155824",
@@ -177,7 +177,7 @@ export const beerCalenderData: any = [
     bryggeri: "Arpus x Messorem",
     navn: "TDH Superdelic X Nectaron X Motueka X Citra DIPA",
     land: "Letland/Canada",
-    Alkohol: 8,
+    Alkohol: "8",
     brødtekst:
       "For tredje gang skal vi have fat i et af Ārpus' collabs - denne gang med canadiske Messorem. Messorem har ramt Danmark i 2025 og deres hypede øl har levet op til deres rygter - for træfsikkerheden har været 100% på det vi har smagt på dem. Virkelig velbryggede øl der matcher de bedste amerikanske humlebryggere.\nI dag står den på DIPA og vi gider ikke sige mere end det - for vi ved at næsten alle elsker DIPA selvom DIPA ikke er så spændende. Men sommetider vil man ikke have det spændende. Sommetider vil man godt bare have det rart. Og det er faktisk og bare helt i orden. ",
     untappdlink:
@@ -188,7 +188,7 @@ export const beerCalenderData: any = [
     bryggeri: "Cantillon",
     navn: "Gueuze 100% Lambic Bio",
     land: "Belgien",
-    Alkohol: 5,
+    Alkohol: "5",
     brødtekst:
       "Hvis man har flere år på bagen som del af ØJ-fællesskabet, så ved man også at vi ynder at have en gueuze med fra et af vores to yndlingslambikbryggerier - 3 Fonteinen eller Cantillon. I år er turen kommet til Cantillons gueuze. \nFor de uindivede er der her tale om spontangæret belgisk ale, som efterfølgende har haft tid på træfade. På et tidspunkt render deres brygmester rundt og sampler smagsprøver fra tønderne og beslutter derefter hvordan han vil blande forskellige tønder af 1, 2 og 3 år gammel lambik. Efterfølgende fermenterer det videre på flasker - også her det får sin karbonering. \nCantillons gueuze er typisk lidt mindre karboneret end andre gueuzer og har sin helt egen karakterfulde smag - man er sjældent i tvivl om at det er Cantillon-gueuze man har fået ind i svælget. \nHyg jer med lidt sur julestemning!",
     untappdlink:
@@ -196,79 +196,78 @@ export const beerCalenderData: any = [
     dato: "17",
   },
   {
-    bryggeri: "Hoppin Frog",
-    navn: "Rocky Mountain Barrel-Aged Q.O.R.I.S. the Quasher Quadruple Oatmeal Russian Imperial Stout",
-    land: "USA",
-    Alkohol: "15,7",
+    bryggeri: "Left Handed Giant ",
+    navn: "Kiwi Auru '25; Gaston Hops",
+    land: "England",
+    Alkohol: "6,5",
     brødtekst:
-      "Vi skal I dag have fat med stout fra… USA! For der er vist et mønster omkring årets stouts. . En af de helt tunge af slagsen i en sød lille dåse. En tætpakket stout med nogle alvorlige procenter, som du kan nyde i løbet af din aften. En øl, som formentlig vil trives godt, efter den får lidt mere temperatur. Forvent en superkomprimeret smagsoplevelse og en øl, som ændrer karakter, imens den varmer op",
+      "IT'S CHUG A BEER TIME!\nFra den venstrehåndede, engelske gigant skal vi have en frisk NEIPA brygget på New Zealandsk humle. Humle dyrket på regenrativ vis af Garson Hops. Værd at nævne at Left Handed Giant er første eupæriske bryggeri der bruger Garsons humle. Forvent fersken, hvide druer og candy floss (det står der i hvert fald på Untappd). ",
     untappdlink:
-      "https://untappd.com/b/hoppin-frog-brewery-rocky-mountain-barrel-aged-q-o-r-i-s-the-quasher-quadruple-oatmeal-russian-imperial-stout/4566617",
+      "https://untappd.com/b/left-handed-giant-kiwi-aura-25-garston-hops/6441752",
     dato: "18",
   },
   {
-    bryggeri: "Verdant",
-    navn: "Neon Colour Spreading IPA",
-    land: "UK",
-    Alkohol: "6,5",
+    bryggeri: "Omnipollo x Angry Chair",
+    navn: "Safari Barrel Aged Vegan Quadruple Stack Stout",
+    land: "Sverige/USA",
+    Alkohol: "13",
     brødtekst:
-      "Verdant, Verdant, Verdant. Ja, ja, ja. Der har efterhånden været mange øl fra Verdant i kalenderen igennem årene, men vi er lige stoked hver gang vi skal servere det for jer. \nDer er svært at sige mere om Verdant eller om IPA, så lad os i stedet dykke ned i humlerne. Nectaron® er udviklet af firmaet NZ Hops og har taget 17 år at opdyrke. Den er ny, den er hypet og den skulle ananas, passionsfrugt og stenfrugter. Ved siden af Nectaron\u0012® suppleres der op med Idaho7 og Citra. \nForvent en yderst frugtet IPA i den tropiske ende af frugtskalaen. ",
+      "Vi skal have fat i dessertstoutens ophavsfolk - Omnipollo. De præsenterede verden for AON Pecan Mud Pie (som nu hedder NOA Pecan Mud Pie) og siden da har de ikke set sig tilbage. De har spyttet den ene vulgære og fuldstændig overdrevne more-is-more-stout ud. Haters vil mene at det er cheap tricks med alle de adjuncts (tilsætningssmage) de fyrer op under. Andre elsker bare en god, tyk stout der smager af al mulig lækker dessertværk. \nAngry Chair absolut high end bryggeri som har lavet nogle VILDE stouts i tidens løb. Vi må se hvad der sker når Omnipollo teamer up med Angry Chair - og hvad der gammer sig bag denne fadlagede sag. Kan man mon smage at den er vegansk? Hvor meget smager den af sojagranulat og havredrik? Hvor meget smager den af tiger og giraf? Og hvor meget smager den af fad? \nAlt dette og mere mere finder du af, når du åbner dagens øl og tager din første tår. ",
     untappdlink:
-      "https://untappd.com/b/verdant-brewing-co-neon-colour-spreading/5158780",
+      "https://untappd.com/b/omnipollo-safari-barrel-aged-vegan-quadruple-stack-stout/6350845",
     dato: "19",
   },
   {
     bryggeri: "Verdant",
-    navn: "Neal Gets Things Done IPA",
-    land: "UK",
-    Alkohol: "6,5",
+    navn: "Allen",
+    land: "England",
+    Alkohol: "8",
     brødtekst:
-      "WHAT? SKER DER?\nTroede I lige at man da kunne regne med at man ikke får øl fra samme bryggeri to dage i streg? Og hvis man gør, så kan man da ikke få samme ølstil to dage i streg?\nThink again! \nIntet er sikkert i øljulekalendere og humlebussen fra Verdant kører igen en IPA ud til folket. En juicy blanding af humleklassikerne Simcoe, Citra, Mosaic og Nelson Sauvin. ",
-    untappdlink:
-      "https://untappd.com/b/verdant-brewing-co-neal-gets-things-done/2183923",
+      "Nu fedter vi altså for jer... har I virkelig fortjent endnu en Verdant-øl? Selvfølgelig har I det. \nAllen er en fuldvoksen DIPA. En øl de har brygget i en del år og som i sin status snuser en smule til den storhed der omkranser deres legendariske øl, Putty. Allen er en gedigen øl fra deres core range og vist faktisk en af de første øl de for alvor slog igennem på. Forvent tonsvis af humle, fylde og dybde i denne DIPA.",
+    untappdlink: "https://untappd.com/b/verdant-brewing-co-allen/2442147",
     dato: "20",
   },
   {
-    bryggeri: "AleSmith",
-    navn: "Barrel-Aged Vietnamese Coffee Speedway Stout (2022)",
+    bryggeri: "Timber Ales",
+    navn: "Blended With Lumber #6",
     land: "USA",
-    Alkohol: "14,2",
+    Alkohol: "13,4",
     brødtekst:
-      "AleSmith Brewing Company er et legendarisk amerikans bryggeri som i særdeleshed er kendt for deres ekstremt populære klassiker “Speedway Stout”. De har redet på bølgen og lavet et væld af forskellige udgaver. I skal i dag stifte bekendtskab med en bourbonfadlagret udgave med vietnamesisk kaffe. Det bliver sikkert rimelig crazy lækkert! \n",
+      "For anden gang i år står den på mørke dråber fra amerkianske Timber Ales. Og for anden gang i ØJ-historien skal vi have Blended With Lumber. De laver denne øl et par gange årligt og vi er altså nu nået til #6 (#7 ramte lige gaderne inden julekalenderen kom i jeres hænder). \nVi og I var fuldstændig vilde med BWL og vi håber da at successen gentager sig. Der er tale om et blend af 1/3 stout der har ligget 26-30 måneder på Willet bourbon fade og 2/3 frisk stout. Det hele har til sidst ligget og fermenteret med ristet kokos og kaffe. Hvis du har åbnet den låge tidligt på dagen, så tænker vi at det bliver svært at vente til senere i dag med at drikke en øl med disse specs. Fad, kokos, kaffe. Arrrrhmen altså... en lille tår af himlens skøhed!",
     untappdlink:
-      "https://untappd.com/b/alesmith-brewing-company-barrel-aged-vietnamese-coffee-speedway-stout-2022/5055895",
+      "https://untappd.com/b/timber-ales-blended-with-lumber-6/6098571",
     dato: "21",
   },
   {
-    bryggeri: "Cantilion",
-    navn: "Kriek 100% Lambic Bio (2023)",
-    land: "BEL",
-    Alkohol: "6",
+    bryggeri: "Verdant",
+    navn: "Touch Grass",
+    land: "England",
+    Alkohol: "8",
     brødtekst:
-      "SURPRISE! Vi var simpelthen så umådeligt heldige at vi fik lov til at købe hele to forskellige flasker Cantillon. Og hvilken bedre måde at fejre juleferien på end at få sig en øl med kirsebær i? \nVi er igen ude i en lambik og her får i en såkaldt Kriek. En kriek består af et blend af lambik der har ligget og gæret med kirsebær og ufrugtet lambik.\nEndnu en sur (med vilje) øl der burde stå som et smukt kontrapunkt til den fløde- og smørfyldte julemad.",
-    untappdlink:
-      "https://untappd.com/b/brasserie-cantillon-kriek-100-lambic-bio-2023/5181935",
+      "Åhhhh, hvor julefreden dog må sænke sig over dig nu. Du har måske allerede fri. Drømmer om at få de jeans du altid har ønsket dig til jul. Og så ser du pludselig at du får endnu en DIPA fra Verdant. Tårene presser sig på - du er faktisk våd i øjenkrogen. For ikke i din vildeste fantasi havde du troet, at ØJ kunne blive ved med at kæle for dig i så vidt et omfang. Men, min ven, den er god nok. Igen skal du forkæles med DIPA fra øverste UK-hylde.\nDagens største udfordring kunne være at undgå at skulle dele den med alt for mange andre end dig selv. Du kan jo sige til din familie at det er en sur øl - ofte et move der får folks interesse til at styrtdykke. ",
+    untappdlink: "https://untappd.com/b/verdant-brewing-co-touch-grass/6440563",
     dato: "22",
   },
   {
-    bryggeri: "Other Half",
-    navn: "Broccoli DIPA",
-    land: "USA",
-    Alkohol: "7,9",
+    bryggeri: "Holy Goat",
+    navn: "Spectral Lore 2024",
+    land: "Skotland",
+    Alkohol: "5,9",
     brødtekst:
-      "Vi ved godt det er lidt sindsygt, men vi har faktisk endnu en øl fra IPA-mejeriet fra Brooklyn! Der rulles selvfølgelig med en doublet dry-hopped sag. Navnet indikere at denne øl kan anses som værende en del af denne måneds indtag af grøntsager, velbekomme!",
-    untappdlink: "https://untappd.com/b/other-half-brewing-co-broccoli/1941131",
+      '""Awright ya mad bastard, fancy a pint?"", siger folk i Skotland hele tiden\nDet er ikke første gang at ØJ har hevet en øl hjem fra Holy Goat i Skotland. Det bliver heller ikke sidste gang. For vi kan virkelig godt lide skotternes take på wild ale. \nDagens øl er en vildtgæret sag. En lys ale der efterfølgende er refermenteret på 220 g/l lokalt høstede tayberries, som er en krydsning mellem hindbær og brombær. Vi har vist haft Spectral Lore med før, har vi ikke? Og den tåler vist et gensyn, gør den ikke!?',
+    untappdlink:
+      "https://untappd.com/b/holy-goat-brewing-spectral-lore-2024/6089379",
     dato: "23",
   },
   {
-    bryggeri: "Jackie O's Brewery",
-    navn: "Forward Into Yesterday",
+    bryggeri: "Goose Island Beer Co.",
+    navn: "Bourbon Country Brand Stout (2020)",
     land: "USA",
-    Alkohol: "14,2",
+    Alkohol: "14,6",
     brødtekst:
-      "Vi prøver igen med historiens dyreste julekalender øl, som delvist financieres af sidste års infected mushroom fra Prairie. Jackie O’s er kendt for deres fadlagerede stouts og vi har fået fat i en af de mere eksklusive fra deres hånd. Forvent masser af vanilje og smæk fra bourbon tønderne. Forvent ikke inficeret øl, men dråber af himmelsk stout af gedigen, amerikansk superkvalitet. Det har, som altid, været en KÆMPE fornøjelse at være jeres værter i denne december. Vi glæder os allerede til næste år! ",
+      "I ved jo efterhånden godt at vi ønsker at slutte af med et brag. Og et brag bliver det altså! \nBCBS er vel noget nært den mest legendarisk high-end stout og den har været stort set umulig at opstøve i DK forud for 2025. Den er blevet mere tilgængelig, men ikke mindre god. \nVi taler her om en vakseægte salt-of-the-earth-kind-of-stout. I ved... hvis Clint Eastwood var en stout. Eller hvis nu en russisk rødbedebonde drak stout. Det er bittert, brændt, kaffe, det er bourbon og det er uden tilstætningsstoffer. En clean sag som helt sikkeret kan dulme dine julenerver... det kan godt være at de brune kartofler ikke bliver som håbet, men med denne øl under vesten, så er du formentlig mere ligeglad og kan sætte dig glad til bords. \nFra bunden af vores beduggede alkohjerter skal der lyde et gigantisk tak. Tak at have været med igen i år. At servere øl for jer er en sand fornøjelse. Artworkanmeldelser, daglige billeder i Facebook-gruppen og Untappd-check-ins er altsammen med til at gøre de 24 første dage i december til noget særligt. \nVi håber, I er med på vognene igen næste år! \nGlædelig jul!",
     untappdlink:
-      "https://untappd.com/b/jackie-o-s-brewery-forward-into-yesterday/4585575",
+      "https://untappd.com/b/goose-island-beer-co-bourbon-county-brand-stout-2020-14-6/3993507",
     dato: "24",
   },
 ] as const;

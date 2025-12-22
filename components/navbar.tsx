@@ -22,7 +22,7 @@ function MyNavBar({ selectedYear, onYearChange }: MyNavBarProps) {
       <h2 className="text-xl ml-2 font-semibold inline text-center">
         ØLJULEKALENDERN {selectedYear}
       </h2>
-      
+
       <div className="flex items-center justify-end pr-3 gap-1">
         <button
           onClick={() => onYearChange(2023)}

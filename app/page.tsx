@@ -188,122 +188,194 @@ function JuleKalenderen() {
         />
         {toggle1 && (
           <motion.div onClick={handleClick1}>
-            <MyCard calenderDate={{ dato: 1, top: "0px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 1, top: "0px" }}
+              year={selectedYear}
+            ></MyCard>
           </motion.div>
         )}
         {toggle2 && (
           <div onClick={handleClick2}>
-            <MyCard calenderDate={{ dato: 2, top: "240px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 2, top: "240px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle3 && (
           <div onClick={handleClick3}>
-            <MyCard calenderDate={{ dato: 3, top: "490px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 3, top: "490px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle4 && (
           <div onClick={handleClick4}>
-            <MyCard calenderDate={{ dato: 4, top: "739px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 4, top: "739px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle5 && (
           <div onClick={handleClick5}>
-            <MyCard calenderDate={{ dato: 5, top: "988px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 5, top: "988px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle6 && (
           <div onClick={handleClick6}>
-            <MyCard calenderDate={{ dato: 6, top: "1236px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 6, top: "1236px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle7 && (
           <div onClick={handleClick7}>
-            <MyCard calenderDate={{ dato: 7, top: "1486px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 7, top: "1486px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle8 && (
           <div onClick={handleClick8}>
-            <MyCard calenderDate={{ dato: 8, top: "1732px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 8, top: "1732px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle9 && (
           <div onClick={handleClick9}>
-            <MyCard calenderDate={{ dato: 9, top: "1980px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 9, top: "1980px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle10 && (
           <div onClick={handleClick10}>
-            <MyCard calenderDate={{ dato: 10, top: "2229px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 10, top: "2229px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle11 && (
           <div onClick={handleClick11}>
-            <MyCard calenderDate={{ dato: 11, top: "2478px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 11, top: "2478px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle12 && (
           <div onClick={handleClick12}>
-            <MyCard calenderDate={{ dato: 12, top: "2727px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 12, top: "2727px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle13 && (
           <div onClick={handleClick13}>
-            <MyCard calenderDate={{ dato: 13, top: "2976px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 13, top: "2976px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle14 && (
           <div onClick={handleClick14}>
-            <MyCard calenderDate={{ dato: 14, top: "3225px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 14, top: "3225px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle15 && (
           <div onClick={handleClick15}>
-            <MyCard calenderDate={{ dato: 15, top: "3472px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 15, top: "3472px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle16 && (
           <div onClick={handleClick16}>
-            <MyCard calenderDate={{ dato: 16, top: "3722px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 16, top: "3722px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle17 && (
           <div onClick={handleClick17}>
-            <MyCard calenderDate={{ dato: 17, top: "3968px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 17, top: "3968px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle18 && (
           <div onClick={handleClick18}>
-            <MyCard calenderDate={{ dato: 18, top: "4216px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 18, top: "4216px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle19 && (
           <div onClick={handleClick19}>
-            <MyCard calenderDate={{ dato: 19, top: "4464px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 19, top: "4464px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle20 && (
           <div onClick={handleClick20}>
-            <MyCard calenderDate={{ dato: 20, top: "4712px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 20, top: "4712px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle21 && (
           <div onClick={handleClick21}>
-            <MyCard calenderDate={{ dato: 21, top: "4960px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 21, top: "4960px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle22 && (
           <div onClick={handleClick22}>
-            <MyCard calenderDate={{ dato: 22, top: "5208px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 22, top: "5208px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle23 && (
           <div onClick={handleClick23}>
-            <MyCard calenderDate={{ dato: 23, top: "5456px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 23, top: "5456px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         {toggle24 && (
           <div onClick={handleClick24}>
-            <MyCard calenderDate={{ dato: 24, top: "5704px" }} year={selectedYear}></MyCard>
+            <MyCard
+              calenderDate={{ dato: 24, top: "5704px" }}
+              year={selectedYear}
+            ></MyCard>
           </div>
         )}
         <div className="bg-white rounded-lg shadow-xl md:absolute md:bg-opacity-30 border-0 flex flex-col justify-center md:grid gap-10 md:gap-2 2xl:gap-10 md:grid-cols-4 md:grid-rows-6 md:w-[500px] 2xl:w-[862px] h-full p-10 md:p-6 2xl:p-10  ">
@@ -312,168 +384,264 @@ function JuleKalenderen() {
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle1 && <div>1</div>}
-            {toggle1 && <OpenBeer calenderDate={{ dato: 1 }} year={selectedYear}> </OpenBeer>}
+            {toggle1 && (
+              <OpenBeer calenderDate={{ dato: 1 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick2}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle2 && <div>2</div>}
-            {toggle2 && <OpenBeer calenderDate={{ dato: 2 }} year={selectedYear}> </OpenBeer>}
+            {toggle2 && (
+              <OpenBeer calenderDate={{ dato: 2 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick3}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle3 && <div>3</div>}
-            {toggle3 && <OpenBeer calenderDate={{ dato: 3 }} year={selectedYear}> </OpenBeer>}
+            {toggle3 && (
+              <OpenBeer calenderDate={{ dato: 3 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>{" "}
           <div
             onClick={handleClick4}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle4 && <div>4</div>}
-            {toggle4 && <OpenBeer calenderDate={{ dato: 4 }} year={selectedYear}> </OpenBeer>}
+            {toggle4 && (
+              <OpenBeer calenderDate={{ dato: 4 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick5}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle5 && <div>5</div>}
-            {toggle5 && <OpenBeer calenderDate={{ dato: 5 }} year={selectedYear}> </OpenBeer>}
+            {toggle5 && (
+              <OpenBeer calenderDate={{ dato: 5 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick6}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle6 && <div>6</div>}
-            {toggle6 && <OpenBeer calenderDate={{ dato: 6 }} year={selectedYear}> </OpenBeer>}
+            {toggle6 && (
+              <OpenBeer calenderDate={{ dato: 6 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick7}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle7 && <div>7</div>}
-            {toggle7 && <OpenBeer calenderDate={{ dato: 7 }} year={selectedYear}> </OpenBeer>}
+            {toggle7 && (
+              <OpenBeer calenderDate={{ dato: 7 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick8}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle8 && <div>8</div>}
-            {toggle8 && <OpenBeer calenderDate={{ dato: 8 }} year={selectedYear}> </OpenBeer>}
+            {toggle8 && (
+              <OpenBeer calenderDate={{ dato: 8 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick9}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle9 && <div>9</div>}
-            {toggle9 && <OpenBeer calenderDate={{ dato: 9 }} year={selectedYear}> </OpenBeer>}
+            {toggle9 && (
+              <OpenBeer calenderDate={{ dato: 9 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick10}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle10 && <div>10</div>}
-            {toggle10 && <OpenBeer calenderDate={{ dato: 10 }} year={selectedYear}> </OpenBeer>}
+            {toggle10 && (
+              <OpenBeer calenderDate={{ dato: 10 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick11}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle11 && <div>11</div>}
-            {toggle11 && <OpenBeer calenderDate={{ dato: 11 }} year={selectedYear}> </OpenBeer>}
+            {toggle11 && (
+              <OpenBeer calenderDate={{ dato: 11 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick12}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle12 && <div>12</div>}
-            {toggle12 && <OpenBeer calenderDate={{ dato: 12 }} year={selectedYear}> </OpenBeer>}
+            {toggle12 && (
+              <OpenBeer calenderDate={{ dato: 12 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick13}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle13 && <div>13</div>}
-            {toggle13 && <OpenBeer calenderDate={{ dato: 13 }} year={selectedYear}> </OpenBeer>}
+            {toggle13 && (
+              <OpenBeer calenderDate={{ dato: 13 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick14}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle14 && <div>14</div>}
-            {toggle14 && <OpenBeer calenderDate={{ dato: 14 }} year={selectedYear}> </OpenBeer>}
+            {toggle14 && (
+              <OpenBeer calenderDate={{ dato: 14 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick15}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle15 && <div>15</div>}
-            {toggle15 && <OpenBeer calenderDate={{ dato: 15 }} year={selectedYear}> </OpenBeer>}
+            {toggle15 && (
+              <OpenBeer calenderDate={{ dato: 15 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick16}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle16 && <div>16</div>}
-            {toggle16 && <OpenBeer calenderDate={{ dato: 16 }} year={selectedYear}> </OpenBeer>}
+            {toggle16 && (
+              <OpenBeer calenderDate={{ dato: 16 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>{" "}
           <div
             onClick={handleClick17}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle17 && <div>17</div>}
-            {toggle17 && <OpenBeer calenderDate={{ dato: 17 }} year={selectedYear}> </OpenBeer>}
+            {toggle17 && (
+              <OpenBeer calenderDate={{ dato: 17 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick18}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle18 && <div>18</div>}
-            {toggle18 && <OpenBeer calenderDate={{ dato: 18 }} year={selectedYear}> </OpenBeer>}
+            {toggle18 && (
+              <OpenBeer calenderDate={{ dato: 18 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick19}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle19 && <div>19</div>}
-            {toggle19 && <OpenBeer calenderDate={{ dato: 19 }} year={selectedYear}> </OpenBeer>}
+            {toggle19 && (
+              <OpenBeer calenderDate={{ dato: 19 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick20}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle20 && <div>20</div>}
-            {toggle20 && <OpenBeer calenderDate={{ dato: 20 }} year={selectedYear}> </OpenBeer>}
+            {toggle20 && (
+              <OpenBeer calenderDate={{ dato: 20 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>{" "}
           <div
             onClick={handleClick21}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle21 && <div>21</div>}
-            {toggle21 && <OpenBeer calenderDate={{ dato: 21 }} year={selectedYear}> </OpenBeer>}
+            {toggle21 && (
+              <OpenBeer calenderDate={{ dato: 21 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick22}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle22 && <div>22</div>}
-            {toggle22 && <OpenBeer calenderDate={{ dato: 22 }} year={selectedYear}> </OpenBeer>}
+            {toggle22 && (
+              <OpenBeer calenderDate={{ dato: 22 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>{" "}
           <div
             onClick={handleClick23}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle23 && <div>23</div>}
-            {toggle23 && <OpenBeer calenderDate={{ dato: 23 }} year={selectedYear}> </OpenBeer>}
+            {toggle23 && (
+              <OpenBeer calenderDate={{ dato: 23 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
           <div
             onClick={handleClick24}
             className="flex justify-center h-48 w-48 md:w-auto md:h-auto items-end md:items-center m-2 border-b-4 md:border-2 2xl:border-4 overflow-hidden border-black hover:shadow-md cursor-pointer opacity-90 hover:opacity-100 md:opacity-85 md:border-dashed text-lg font-semibold"
           >
             {!toggle24 && <div>24</div>}
-            {toggle24 && <OpenBeer calenderDate={{ dato: 24 }} year={selectedYear}> </OpenBeer>}
+            {toggle24 && (
+              <OpenBeer calenderDate={{ dato: 24 }} year={selectedYear}>
+                {" "}
+              </OpenBeer>
+            )}
           </div>
         </div>
       </div>

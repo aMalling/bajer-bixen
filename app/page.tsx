@@ -385,9 +385,7 @@ function JuleKalenderen() {
           >
             {!toggle1 && <div>1</div>}
             {toggle1 && (
-              <OpenBeer calenderDate={{ dato: 1 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 1 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -396,9 +394,7 @@ function JuleKalenderen() {
           >
             {!toggle2 && <div>2</div>}
             {toggle2 && (
-              <OpenBeer calenderDate={{ dato: 2 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 2 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -407,9 +403,7 @@ function JuleKalenderen() {
           >
             {!toggle3 && <div>3</div>}
             {toggle3 && (
-              <OpenBeer calenderDate={{ dato: 3 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 3 }} year={selectedYear} />
             )}
           </div>{" "}
           <div
@@ -418,9 +412,7 @@ function JuleKalenderen() {
           >
             {!toggle4 && <div>4</div>}
             {toggle4 && (
-              <OpenBeer calenderDate={{ dato: 4 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 4 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -429,9 +421,7 @@ function JuleKalenderen() {
           >
             {!toggle5 && <div>5</div>}
             {toggle5 && (
-              <OpenBeer calenderDate={{ dato: 5 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 5 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -440,9 +430,7 @@ function JuleKalenderen() {
           >
             {!toggle6 && <div>6</div>}
             {toggle6 && (
-              <OpenBeer calenderDate={{ dato: 6 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 6 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -451,9 +439,7 @@ function JuleKalenderen() {
           >
             {!toggle7 && <div>7</div>}
             {toggle7 && (
-              <OpenBeer calenderDate={{ dato: 7 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 7 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -462,9 +448,7 @@ function JuleKalenderen() {
           >
             {!toggle8 && <div>8</div>}
             {toggle8 && (
-              <OpenBeer calenderDate={{ dato: 8 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 8 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -473,9 +457,7 @@ function JuleKalenderen() {
           >
             {!toggle9 && <div>9</div>}
             {toggle9 && (
-              <OpenBeer calenderDate={{ dato: 9 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 9 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -484,9 +466,7 @@ function JuleKalenderen() {
           >
             {!toggle10 && <div>10</div>}
             {toggle10 && (
-              <OpenBeer calenderDate={{ dato: 10 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 10 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -495,9 +475,7 @@ function JuleKalenderen() {
           >
             {!toggle11 && <div>11</div>}
             {toggle11 && (
-              <OpenBeer calenderDate={{ dato: 11 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 11 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -506,9 +484,7 @@ function JuleKalenderen() {
           >
             {!toggle12 && <div>12</div>}
             {toggle12 && (
-              <OpenBeer calenderDate={{ dato: 12 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 12 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -517,9 +493,7 @@ function JuleKalenderen() {
           >
             {!toggle13 && <div>13</div>}
             {toggle13 && (
-              <OpenBeer calenderDate={{ dato: 13 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 13 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -528,9 +502,7 @@ function JuleKalenderen() {
           >
             {!toggle14 && <div>14</div>}
             {toggle14 && (
-              <OpenBeer calenderDate={{ dato: 14 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 14 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -539,9 +511,7 @@ function JuleKalenderen() {
           >
             {!toggle15 && <div>15</div>}
             {toggle15 && (
-              <OpenBeer calenderDate={{ dato: 15 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 15 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -550,9 +520,7 @@ function JuleKalenderen() {
           >
             {!toggle16 && <div>16</div>}
             {toggle16 && (
-              <OpenBeer calenderDate={{ dato: 16 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 16 }} year={selectedYear} />
             )}
           </div>{" "}
           <div
@@ -561,9 +529,7 @@ function JuleKalenderen() {
           >
             {!toggle17 && <div>17</div>}
             {toggle17 && (
-              <OpenBeer calenderDate={{ dato: 17 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 17 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -572,9 +538,7 @@ function JuleKalenderen() {
           >
             {!toggle18 && <div>18</div>}
             {toggle18 && (
-              <OpenBeer calenderDate={{ dato: 18 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 18 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -583,9 +547,7 @@ function JuleKalenderen() {
           >
             {!toggle19 && <div>19</div>}
             {toggle19 && (
-              <OpenBeer calenderDate={{ dato: 19 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 19 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -594,9 +556,7 @@ function JuleKalenderen() {
           >
             {!toggle20 && <div>20</div>}
             {toggle20 && (
-              <OpenBeer calenderDate={{ dato: 20 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 20 }} year={selectedYear} />
             )}
           </div>{" "}
           <div
@@ -605,9 +565,7 @@ function JuleKalenderen() {
           >
             {!toggle21 && <div>21</div>}
             {toggle21 && (
-              <OpenBeer calenderDate={{ dato: 21 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 21 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -616,9 +574,7 @@ function JuleKalenderen() {
           >
             {!toggle22 && <div>22</div>}
             {toggle22 && (
-              <OpenBeer calenderDate={{ dato: 22 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 22 }} year={selectedYear} />
             )}
           </div>{" "}
           <div
@@ -627,9 +583,7 @@ function JuleKalenderen() {
           >
             {!toggle23 && <div>23</div>}
             {toggle23 && (
-              <OpenBeer calenderDate={{ dato: 23 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 23 }} year={selectedYear} />
             )}
           </div>
           <div
@@ -638,9 +592,7 @@ function JuleKalenderen() {
           >
             {!toggle24 && <div>24</div>}
             {toggle24 && (
-              <OpenBeer calenderDate={{ dato: 24 }} year={selectedYear}>
-                {" "}
-              </OpenBeer>
+              <OpenBeer calenderDate={{ dato: 24 }} year={selectedYear} />
             )}
           </div>
         </div>

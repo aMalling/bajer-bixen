@@ -1,9 +1,9 @@
 "use client ";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { beerCalenderData as data2025 } from "@/app/lib/data";
-import { beerCalenderData as data2024 } from "@/app/lib/data2024";
-import { beerCalenderData as data2023 } from "@/app/lib/data2023";
+import { beerCalenderData } from "@/app/lib/data";
+import { beerCalenderData as beerData2024 } from "@/app/lib/data2024";
+import { beerCalenderData as beerData2023 } from "@/app/lib/data2023";
 
 function OpenBeer({ calenderDate, year }: { calenderDate: any; year: number }) {
   console.log(calenderDate.dato);

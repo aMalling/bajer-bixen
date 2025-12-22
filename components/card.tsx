@@ -1,14 +1,19 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { beerCalenderData as data2025 } from "@/app/lib/data";
-import { beerCalenderData as data2024 } from "@/app/lib/data2024";
-import { beerCalenderData as data2023 } from "@/app/lib/data2023";
+import { beerCalenderData } from "@/app/lib/data";
+import { beerCalenderData as beerData2024 } from "@/app/lib/data2024";
+import { beerCalenderData as beerData2023 } from "@/app/lib/data2023";
 import { motion } from "framer-motion";
 
 function MyCard({ calenderDate, year }: { calenderDate: any; year: number }) {
-  const beerCalenderData = year === 2023 ? data2023 : year === 2024 ? data2024 : data2025;
-  const beerInfo = beerCalenderData[calenderDate.dato - 1];
+  const currentYearData =
+    year === 2023
+      ? beerData2023
+      : year === 2024
+      ? beerData2024
+      : beerCalenderData;
+  const beerInfo = currentYearData[calenderDate.dato - 1];
 
   return (
     <div>
@@ -60,7 +65,7 @@ function MyCard({ calenderDate, year }: { calenderDate: any; year: number }) {
             transition={{ duration: 1 }}
             className=" z-40 md:fixed hidden md:flex flex-col md:flex-row bg-orange-50 border-1 border-black mt-2 md:right-0 md:left-0 lg:mx-32 xl:mx-44 md:top-40 2xl:top-1/4 shadow-xl"
           >
-            <button className" absolute top-0 right-0 text-right bg mx-3 p-1 shadow-sm rounded-full cursor-pointer">
+            <button className="absolute top-0 right-0 text-right bg mx-3 p-1 shadow-sm rounded-full cursor-pointer">
               x
             </button>
             <Image

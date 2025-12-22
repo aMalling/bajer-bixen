@@ -27,7 +27,7 @@ function MyNavBar({ selectedYear, onYearChange }: MyNavBarProps) {
         <select
           value={selectedYear}
           onChange={(e) => onYearChange(Number(e.target.value))}
-          className="px-2 py-1 text-xs rounded bg-transparent text-bajer-base border border-bajer-base opacity-60 hover:opacity-100 focus:opacity-100 focus:outline-none cursor-pointer transition-all"
+          className="px-2 py-1 text-xs rounded bg-transparent text-bajer-base border border-bajer-base opacity-60 hover:opacity-100 focus:opacity-100 focus:outline-none cursor-pointer transition-all [&>option]:bg-bajer-primary [&>option]:text-bajer-base"
         >
           <option value={2023}>2023</option>
           <option value={2024}>2024</option>

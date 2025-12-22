@@ -23,37 +23,16 @@ function MyNavBar({ selectedYear, onYearChange }: MyNavBarProps) {
         ØLJULEKALENDERN {selectedYear}
       </h2>
 
-      <div className="flex items-center justify-end pr-3 gap-1">
-        <button
-          onClick={() => onYearChange(2023)}
-          className={`px-2 py-1 text-xs rounded transition-all ${
-            selectedYear === 2023
-              ? "bg-bajer-base text-bajer-primary font-semibold"
-              : "text-bajer-base opacity-60 hover:opacity-100"
-          }`}
+      <div className="flex items-center justify-end pr-3">
+        <select
+          value={selectedYear}
+          onChange={(e) => onYearChange(Number(e.target.value))}
+          className="px-2 py-1 text-xs rounded bg-transparent text-bajer-base border border-bajer-base opacity-60 hover:opacity-100 focus:opacity-100 focus:outline-none cursor-pointer transition-all"
         >
-          2023
-        </button>
-        <button
-          onClick={() => onYearChange(2024)}
-          className={`px-2 py-1 text-xs rounded transition-all ${
-            selectedYear === 2024
-              ? "bg-bajer-base text-bajer-primary font-semibold"
-              : "text-bajer-base opacity-60 hover:opacity-100"
-          }`}
-        >
-          2024
-        </button>
-        <button
-          onClick={() => onYearChange(2025)}
-          className={`px-2 py-1 text-xs rounded transition-all ${
-            selectedYear === 2025
-              ? "bg-bajer-base text-bajer-primary font-semibold"
-              : "text-bajer-base opacity-60 hover:opacity-100"
-          }`}
-        >
-          2025
-        </button>
+          <option value={2023}>2023</option>
+          <option value={2024}>2024</option>
+          <option value={2025}>2025</option>
+        </select>
       </div>
     </div>
   );
